@@ -1,7 +1,13 @@
 # 开发工具集 Development Toolbox
 
 ## 开发工具
+* Java。Java可以通过brew cask来安装，通过tap version来管理版本：
+```bash
+   brew tap caskroom/versions
+   brew cask install java7
+```
 
+其实原理也是通过环境变量`JAVA_HOME`来指向当前最新版本的方法来实现的：`JAVA_HOME=/Library/Java/JavaVirtualMachine/1.x.x.jdk/Contents/Home`。
 
 
 ## IDE
