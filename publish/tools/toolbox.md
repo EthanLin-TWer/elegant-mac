@@ -38,6 +38,6 @@
 ## Misc--杂七杂八的
 * SourceTree，它是Atlassian公司出品的一款优秀的Git图形化客户端
 * CheatSheet
-* Alfred，它定义了强大的工作流workflows，并且有许多雷锋使用者提供现成的拓展，访问[这里]查看更多
-* 
+* Alfred，它定义了强大的工作流workflows，并且有许多雷锋使用者提供现成的拓展，访问[这里](http://www.alfredworkflow.com/)查看更多
+
 
