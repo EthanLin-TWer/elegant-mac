@@ -30,3 +30,14 @@
 * MacDown/Gitbook/Mou/CmdMarkdown...，markdown编辑器
 
 
+## 全键盘操作
+* Vimium(for chrome)/KeySnail(for firefox)
+* [ShortCat](https://shortcatapp.com/)。还没用过，不过像这种工具肯定调用了系统的API来进行工作，可以拦截系统层级的输入，真的做到全系统键盘化
+
+
+## Misc--杂七杂八的
+* SourceTree，它是Atlassian公司出品的一款优秀的Git图形化客户端
+* CheatSheet
+* Alfred，它定义了强大的工作流workflows，并且有许多雷锋使用者提供现成的拓展，访问[这里]查看更多
+* 
+
