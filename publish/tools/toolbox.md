@@ -14,4 +14,8 @@
 * [Oh My Zsh](http://ohmyz.sh/)。如果说有了终端，一切都有了命令行操作的可能，那么oh-my-zsh则是带领终端走入了彩色时代。它不仅提供了主题themes，还提供了一套插件和工具，使许多终端的工作变得简单。[这里](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview)有许多有价值的插件。
 
 
+## IAAS(基础设施即服务管理)神器
+`brew install stow`，stow这个神器不仅可以帮你备份所有重要的dotfiles，还可以帮你进行版本管理，竟然还可以支持加密。简直满足了你搬运系统过程中需要备份配置文件的所有需求！具体的我还没用上，不过可以看[这篇文章](https://github.com/jcouyang/dotfiles)获得一些详细信息。
+
+
 
