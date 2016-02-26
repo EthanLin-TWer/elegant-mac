@@ -9,4 +9,7 @@
 * App Store。有些应用只有App Store的渠道可以安装。App Store没有命令行，还需要Apple ID，下载不方便，但更新起来比较方便
 
 
-##
+## 终端
+* [iTerm3](https://www.iterm2.com/features.html)。这个终端具备比默认终端terminal更强悍的能力，具体的请见[iTerm3一节](./iterm3.md)
+* 
+
