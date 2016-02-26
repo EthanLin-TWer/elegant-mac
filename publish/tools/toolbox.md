@@ -24,6 +24,9 @@
 * [moom](https://manytricks.com/moom/)。据说功能强大
 
 
-
+## 编辑器
+* sublime2/3。现在在用的工具
+* atom。传闻也很酷炫
+* MacDown/Gitbook/Mou/CmdMarkdown...，markdown编辑器
 
 
