@@ -4,7 +4,7 @@
 
 
 ## 阅读地址
-[Linesh Gitbook: elegant mac tools system closure](https://www.gitbook.com/book/linesh/gitbook-elegant-mac-tools-system-closure/details)
+[Linesh Gitbook: Elegant Mac Tools System Closure](https://www.gitbook.com/book/linesh/gitbook-elegant-mac-tools-system-closure/details)
 
 
 ## 别人已经做过的工作
