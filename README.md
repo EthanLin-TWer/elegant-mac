@@ -7,5 +7,10 @@
 [Linesh Gitbook: Elegant Mac Tools System Closure](https://www.gitbook.com/book/linesh/gitbook-elegant-mac-tools-system-closure/details)
 
 
+## 待办事项(TODOLIST)
+* 自动化本书提到所有工具的版本信息、下载链接信息的维护
+* 维护通过不同渠道__安装__的软件信息，对这些信息进行版本管理同时能从维护的元信息中一键安装所有软件
+
+
 ## 别人已经做过的工作
 请参考[参考文章-Reference一节](publish/reference/reference.md)。
