@@ -5,5 +5,6 @@
 * [Mac OSX系统配置 Pre-Configuration](publish/system/pre-configuration.md)
 * [工具集 Toolbox](publish/tools/toolbox.md)
    * [iTerm3](publish/tools/iterm3.md)
+* [开发工具集 Development Toolbox](publish/development-tools/index.md)
 * [参考文章 Reference](publish/reference/reference.md)
 
