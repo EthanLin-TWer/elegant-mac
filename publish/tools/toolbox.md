@@ -20,9 +20,9 @@
 
 
 ## 窗口管理工具
-* [shiftit](https://github.com/fikovnik/ShiftIt)。快捷键冲突较小
+* [shiftit](https://github.com/fikovnik/ShiftIt)。支持基本的上下左右分屏等窗口管理，支持全屏，支持居中。除此以外，还支持sizeup需要插件才能做到的大小调整，大小调整的比例还是可配置的。支持margin调整，支持多显示器。目前首选
+* [sizeup](https://www.irradiatedsoftware.com/sizeup/)。功能与shiftit基本相同，原生sizeup不支持大小（三分之一四分之一之类的）调整，必须装脚本；但sizeup支持在不同space(desktop)之间移动窗口，但反应速度较慢，目前需求不大
 * [moom](https://manytricks.com/moom/)。据说功能强大
-* [sizeup](https://www.irradiatedsoftware.com/sizeup/)。除了具备基本的窗口管理之外，还支持多显示器之间的窗口调整，一键发送窗口到另外一个显示器，以及支持灵活的配置
 
 
 ## 编辑器
