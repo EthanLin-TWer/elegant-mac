@@ -40,5 +40,6 @@
 * SourceTree，它是Atlassian公司出品的一款优秀的Git图形化客户端
 * CheatSheet
 * Alfred，它定义了强大的工作流workflows，并且有许多雷锋使用者提供现成的拓展，访问[这里](http://www.alfredworkflow.com/)查看更多
+* Manico，一个快速切换app的支持器，支持使用键盘快速导航到指定的app，而且有贴心的左手操作模式，使用起来比alfred要更简明快速些，因为只做app导航这个垂直领域，而且只要25人民币买的话，害得我差点就手滑了。简单用了下，不能mute掉alfred（这个问题很大，因为alfred几乎是所有快速操作的入口）是个硬伤
 
 
