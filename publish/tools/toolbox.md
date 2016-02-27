@@ -22,6 +22,7 @@
 ## 窗口管理工具
 * [shiftit](https://github.com/fikovnik/ShiftIt)。快捷键冲突较小
 * [moom](https://manytricks.com/moom/)。据说功能强大
+* [sizeup](https://www.irradiatedsoftware.com/sizeup/)。除了具备基本的窗口管理之外，还支持多显示器之间的窗口调整，一键发送窗口到另外一个显示器，以及支持灵活的配置
 
 
 ## 编辑器
