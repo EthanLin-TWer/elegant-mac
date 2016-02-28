@@ -18,4 +18,4 @@
 
 其他高级特性：[https://support.apple.com/en-us/HT204434](https://support.apple.com/en-us/HT204434)。
 
-
+系统设置里对常用功能（而非操作）的快捷键配置，也要做到最精简。
