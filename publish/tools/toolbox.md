@@ -33,7 +33,7 @@
 
 ## 全键盘操作
 * Vimium(for chrome)/KeySnail(for firefox)
-* [ShortCat](https://shortcatapp.com/)。还没用过，不过像这种工具肯定调用了系统的API来进行工作，可以拦截系统层级的输入，真的做到全系统键盘化
+* [ShortCat](https://shortcatapp.com/)。还没用过，不过像这种工具肯定调用了系统的API来进行工作，可以拦截系统层级的输入，真的做到全系统键盘化。进去这个软件主页看了README，发现还有许多不兼容的应用，不少的bug，以及现在还在进行的公测，稳定性可能还不是很好
 
 
 ## Misc--杂七杂八的
