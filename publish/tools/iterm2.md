@@ -50,11 +50,3 @@ hotkey windows让你在任何地方都可以打开终端执行一些命令，对
 ## 智能选择 Smart Selection
 iterm2能够只能识别邮件地址、URL、文件名、文件夹等名称，按住`Command`键点击即可去到相应的地方。比较handy，用处不小也不大。
 
-
-## Zsh Plugins
-* git
-* z/autojump 两者谁更好用些，我是觉得z的路径要更友好些，但需要时间让它学习
-* vim的语法高亮
-* git-completion git命令的自动补全
-* zsh-completion zsh命令的自动补全
-* zsh-syntax-highlighting 简直美妙
