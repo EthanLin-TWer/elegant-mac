@@ -23,11 +23,18 @@ iterm2支持把窗口进行横向纵向切分，自己可以调整占据的比�
 ### 即时窗口 Hotkey Window
 hotkey windows让你在任何地方都可以打开终端执行一些命令，对我来说应用最多的场合，应该是在搜索一些问题的时候，对于一些需要输入命令的解决方案可以即时拷贝命令，打开终端来输入。比如，现在我在搜索“如何安装zsh语法高亮的插件”，然后找到了zsh语法高亮插件的官方github，一共有三个步骤，我可以立即就打开iterm2的hotkey window，拷贝git clone的命令拷贝仓库，再打开一个窗口用vim修改`~/.zshrc`文件的内容，然后`source`一下，高亮搞定！
 
-![iTerms-hotkey-window](./figures/iterm2-hotkey-window.png)
+![iTerms2-hotkey-window](./figures/iterm2-hotkey-window.png)
 
 * 全屏切换：Command+Enter。全屏模式切换在hotkey window下尤其顺滑，太赞！！
 
-### 
+### 搜索与全键盘复制粘贴 Search and Mouseless Selection
+这个功能其实我不太常用，就是可以在iterm2窗口中搜索内容，跟在编辑器中搜索一样，支持正则表达式搜索。此外，还支持选中当前搜索内容一键复制等，功能强大，就是没怎么用到。
+
+![iTerm2-search-and-mouseless-selection](./figures/iterm2-search-and-mouseless-selection.png)
+
+* 搜索：Command+F
+* 复制选中内容：Enter/Return
+* 拓展选择（反向拓展）：tab/Shift+tab
 
 ## Zsh Plugins
 * git
