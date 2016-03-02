@@ -60,3 +60,15 @@ hotkey windows让你在任何地方都可以打开终端执行一些命令，对
 ## 智能选择 Smart Selection
 iterm2能够只能识别邮件地址、URL、文件名、文件夹等名称，按住`Command`键点击即可去到相应的地方。比较handy，用处不小也不大。
 
+
+## 系统配置
+
+
+
+
+## 快捷键
+除了上面提到的在一些场景下比较常用的快捷键，这里尽可能地要精简整个软件所使用的快捷键，其他不常用的能删都删了。
+
+* `Shift+delete`，打开hotkey window，这里更改了默认的配置，因为空格的组合其他程序都在用，比如`Control+Space`是Intellij的上下文提示，`Command+Space`是Alfred/Spotlight的全局快捷键，`Option+Space`是系统默认的幻灯片播放，`Option+Command+Space`被我也因为前面快捷键被占的原因被我定制成输入法切换，`Shift+Space`是输入法的简繁体切换。太难记了，所以hotkey window的快捷键不这么用
+* `Control+A/E/N/P`，系统默认的快捷键，师承vim系风格，分别是跳到行头/行尾/下一行/上一行的快捷键，在编辑的时候对效率有一定帮助
+* `Control+U`，直接删掉一行
