@@ -17,6 +17,7 @@ iterm2支持把窗口进行横向纵向切分，自己可以调整占据的比�
 
 * 纵向切分：`Command+D`
 * 横向切分：`Shift+Command+D`
+* 窗口切换：`Command+[` / `Command+]` / `Option+Command+Left` / `Option+Command+Right`
 
 
 ## 即时窗口 Hotkey Window
