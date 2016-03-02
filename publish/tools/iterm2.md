@@ -44,9 +44,9 @@ hotkey windows让你在任何地方都可以打开终端执行一些命令，对
 
 
 ## 自动补全与粘贴板历史 Autocomplete and Paste History
-只要是在终端输入过的词或者命令，iterm2就可以帮你提供自动补全的建议，快捷键是`Command+;`，关于这个功能有许多替代品，比如autojump/z、`Control+R`搜索命令、`history`命令等，什么时候最适合使用这个功能，我觉得是在命令很长的时候，如下，但不可替代性并不是很强。
+只要是在终端输入过的词或者命令，iterm2就可以帮你提供自动补全的建议，快捷键是`Command+;`，调出后即可通过纯键盘输入来筛选，比较适合快速输入一些长命令，如下，其快捷键也比`Control+R`友好一点，可视化程度更高一些。在其他相似的场景下，这个功能有一些替代品，比如目录导航时使用autojump/z、搜索历史命令时使用`Control+R`、`history`等。
 
-另外，iterm2也帮你保存了你输入过的命令，通过快捷键`Shift+Command+H`即可调出，调出后可通过键盘输入来筛选，可以做到纯键盘输入以前已经输过的长命令，快捷键也比`Control+R`友好一点，可视化程度更高一些。
+另外，iterm2也帮你保存了你粘贴过的命令，通过快捷键`Shift+Command+H`即可调出，但仅限于通过粘贴板的方式进入的命令。
 
 ![iTerm2-autocomplete](./figures/iterm2-autocomplete.png)
 
