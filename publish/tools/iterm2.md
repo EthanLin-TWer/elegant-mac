@@ -30,6 +30,7 @@ hotkey windows让你在任何地方都可以打开终端执行一些命令，对
 ![iTerms2-hotkey-window](./figures/iterm2-hotkey-window.png)
 
 * 全屏切换：`Command+Enter`。全屏模式切换在hotkey window下尤其顺滑，太赞！！
+* 窗口模糊度toggle：`Command+U`
 
 
 ## 搜索与全键盘复制粘贴 Search and Mouseless Selection
@@ -53,7 +54,7 @@ hotkey windows让你在任何地方都可以打开终端执行一些命令，对
 
 
 ## 即时回放 Instant Replay
-逆天功能，可以回放过去任一__时刻__里iterm窗口的状态，在你需要之前窗口的一些信息时特别有用，可以回过去查看。虽然我不怎么用到这个功能，但你知道出事了随时都可以回去查看以前的信息。快捷键是`Option+Command+B`，每个session的即时回放缓存默认是4MB，可以在设置里面改
+逆天功能，可以回放过去任一__时刻__里iterm窗口的状态，在你需要之前窗口的一些信息时特别有用，可以回过去查看。虽然我不怎么用到这个功能，但你知道出事了随时都可以回去查看以前的信息。快捷键是`Option+Command+B`，每个session的即时回放缓存默认是4MB，可以在设置里面改。
 
 
 ## 智能选择 Smart Selection
