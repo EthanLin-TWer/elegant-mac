@@ -13,6 +13,10 @@ zsh默认的安装位置是在`~/.oh-my-zsh`文件夹下，同时在你的根目
 
 
 ## 主题 Themes
+所有的主题都在`~/.zshrc`脚本的`ZSH_THEME`一行中配置，个人喜好是使用`"random"`值，每次zsh启动时都会随机加载一个主题。所有的官方标配主题都放在`~/.oh-my-zsh/themes`文件夹中，也可以[前往官方wiki之主题篇查看效果](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)。另外目前官方已不接受更多的主题提交请求，所以用户自己定制的一些主题则要前往[External Resource](https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes)查看。
+
+![iTerm2-random-themes](./figures/iterm2-random-themes.png)
+
 
 ## 插件 Plugins
 * git
