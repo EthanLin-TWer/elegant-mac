@@ -7,8 +7,10 @@ iTerm这个终端具有比系统默认终端更强的能力，而term3则是最�
 * 即时窗口(Hotkey Window)
 * 搜索，支持正则表达式
 * 全键盘复制(Mouseless Copy)
+* 自动补全(Auto Complete)
 * 粘贴版历史记录(Paste History)
 * 触发器(Triggers)(虽然还不知道是什么鬼)
+* ...等
 
 ## 窗口切分 Split Panes
 iterm2支持把窗口进行横向纵向切分，自己可以调整占据的比例，并且不活跃的窗口（inactive panel）还会变暗以强调活跃的窗口，对于需要一个工作区间做多件事的需求是很有用的。
