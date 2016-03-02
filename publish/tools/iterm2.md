@@ -62,13 +62,24 @@ iterm2能够只能识别邮件地址、URL、文件名、文件夹等名称，�
 
 
 ## 系统配置
+### 要打开的选项
+* General -> Closing -> Confirm 'Quit iTerm2' command。`Command+Q`离`Command+W/1/2/3/Tab`如此之近，保不齐你什么时候手一滑按错所有窗口就都归西了
+* Appearance -> Window -> Hide scrollbars。据经验基本没必要，没用的元素就不打开让它占据空间
+* Profiles -> Text -> Cursor: Underline, Blinking cursor，光标指示符采用下划线并且加闪烁效果。个人喜好
+* Profiles -> Text -> Font: 12pt Monaco，此字体甚好
 
-
+### 要关闭的选项
+* General -> Selection -> Copy to pasteboard on selection。选中即复制，这不烦人嘛
+* General -> Window -> Adjust window when changing font size。比较建议关掉，虽然调整字体大小的时候不常见，但若窗口大小跟着变又得调窗口大小
+* Appearance -> Tabs -> Show tab close buttons。有`Command+W`和`exit`就行了
+* Keys -> Navigation Shortcuts -> To switch split panes，关掉
+* Keys -> Navigation Shortcuts -> To switch windows，关掉
 
 
 ## 快捷键
 除了上面提到的在一些场景下比较常用的快捷键，这里尽可能地要精简整个软件所使用的快捷键，其他不常用的能删都删了。
 
 * `Shift+delete`，打开hotkey window，这里更改了默认的配置，因为空格的组合其他程序都在用，比如`Control+Space`是Intellij的上下文提示，`Command+Space`是Alfred/Spotlight的全局快捷键，`Option+Space`是系统默认的幻灯片播放，`Option+Command+Space`被我也因为前面快捷键被占的原因被我定制成输入法切换，`Shift+Space`是输入法的简繁体切换。太难记了，所以hotkey window的快捷键不这么用
-* `Control+A/E/N/P`，系统默认的快捷键，师承vim系风格，分别是跳到行头/行尾/下一行/上一行的快捷键，在编辑的时候对效率有一定帮助
+* `Control+A/E`，系统默认的快捷键，师承vim系风格，分别是跳到行头/行尾的快捷键，在编辑的时候对效率有一定帮助
+* `Command+Up/Down`，上一行/下一行
 * `Control+U`，直接删掉一行
