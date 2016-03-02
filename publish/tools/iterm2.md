@@ -9,8 +9,10 @@ iTerm这个终端具有比系统默认终端更强的能力，而term3则是最�
 * 全键盘复制(Mouseless Copy)
 * 自动补全(Auto Complete)
 * 粘贴版历史记录(Paste History)
+* 即时回放(Instant Replay)
 * 触发器(Triggers)(虽然还不知道是什么鬼)
 * ...等
+
 
 ## 窗口切分 Split Panes
 iterm2支持把窗口进行横向纵向切分，自己可以调整占据的比例，并且不活跃的窗口（inactive panel）还会变暗以强调活跃的窗口，对于需要一个工作区间做多件事的需求是很有用的。
@@ -48,6 +50,10 @@ hotkey windows让你在任何地方都可以打开终端执行一些命令，对
 ![iTerm2-autocomplete](./figures/iterm2-autocomplete.png)
 
 ![iTerm2-paste-history](./figures/iterm2-paste-history.png)
+
+
+## 即时回放 Instant Replay
+逆天功能，可以回放过去任一__时刻__里iterm窗口的状态，在你需要之前窗口的一些信息时特别有用，可以回过去查看。虽然我不怎么用到这个功能，但你知道出事了随时都可以回去查看以前的信息。快捷键是`Option+Command+B`，每个session的即时回放缓存默认是4MB，可以在设置里面改
 
 
 ## 智能选择 Smart Selection
