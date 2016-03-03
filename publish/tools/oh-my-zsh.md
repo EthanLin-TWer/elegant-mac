@@ -25,9 +25,6 @@ zsh默认的安装位置是在`~/.oh-my-zsh`文件夹下，同时在你的根目
 
 插件开启在`~/.zshrc`文件的`plugins=(git ...)`一行配置，加入插件名并以空格分隔即可。所有的插件都已经放置在`~/.oh-my-zsh/plugins`目录下了。下面推荐一些个人比较推荐的插件，更多的插件可以在[github的官方wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview)查询。
 
-```sh 
-zsh-syntax-highlighting zsh-history-substring-search
-```
 
 ### 自动跳转 Fast Jumping 
 * `autojump`。没有结果预览，不太友好
@@ -49,7 +46,11 @@ zsh-syntax-highlighting zsh-history-substring-search
 * `sublime`。使用统一的`st`命令启动sublime，为你屏蔽了sublime可能混乱的安装位置
 * `history`。提供了`h`代替`history`，提供了`hsi`命令来搜索带特定字符串的历史
 
-* vim的语法高亮
-* git-completion git命令的自动补全
-* zsh-completion zsh命令的自动补全
-* zsh-syntax-highlighting 简直美妙
+
+### 自动补全、搜索与语法高亮
+* [`git-completion`](https://github.com/git/git/blob/master/contrib/completion/git-completion.zsh)。git命令的自动补全
+* [zsh-completion](https://github.com/zsh-users/zsh-completions)。zsh命令的自动补全
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)。简直美妙
+* [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)。简直美妙，其实我看不太出来哪些补全是哪个插件做的，总之一口气全部装上就对了。zsh的语法高亮插件会在你命令输错的时候变红，下面是总的效果图
+
+![zsh-plugins-complete-overview](./figures/zsh-plugins-complete-overview.png)
