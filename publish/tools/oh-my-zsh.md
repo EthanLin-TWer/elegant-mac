@@ -25,8 +25,8 @@ zsh默认的安装位置是在`~/.oh-my-zsh`文件夹下，同时在你的根目
 
 插件开启在`~/.zshrc`文件的`plugins=(git ...)`一行配置，加入插件名并以空格分隔即可。所有的插件都已经放置在`~/.oh-my-zsh/plugins`目录下了。下面推荐一些个人比较推荐的插件，更多的插件可以在[github的官方wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview)查询。
 
-```sh
-git brew osx sublime history colorize copydir colored-man-pages zsh-syntax-highlighting zsh-history-substring-search.zsh
+```sh 
+zsh-syntax-highlighting zsh-history-substring-search
 ```
 
 ### 自动跳转 Fast Jumping 
@@ -44,9 +44,11 @@ git brew osx sublime history colorize copydir colored-man-pages zsh-syntax-highl
 
 
 ### 更简短的快捷键 Alias
-* `git`。首推git插件，它提供的是一个__全球统一__的alias，只要是使用zsh的终端都可以使用同样的缩略命令，常用的有比如`gst``gca``gca!``gcan!``gup``gp``gcb``gcf``gcm``gco`等，完整的命令列表可以参考[`zsh-git`github的官方wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
+* `git`。首推git插件，它提供的是一个__全球统一__的alias，只要是使用zsh的终端都可以使用同样的缩略命令，常用的有比如`gst` `gca` `gca!` `gcan!` `gup` `gp` `gcb` `gcf` `gcm` `gco`等，完整的命令列表可以参考[`zsh-git`github的官方wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
+  ![zsh-plugins-git](./figures/zsh-plugins-git.png)
+* `sublime`。使用统一的`st`命令启动sublime，为你屏蔽了sublime可能混乱的安装位置
+* `history`。提供了`h`代替`history`，提供了`hsi`命令来搜索带特定字符串的历史
 
-* git
 * vim的语法高亮
 * git-completion git命令的自动补全
 * zsh-completion zsh命令的自动补全
