@@ -43,7 +43,9 @@ git brew osx sublime history colorize copydir colored-man-pages zsh-syntax-highl
 ![zsh-plugins-wd](./figures/zsh-plugins-wd.png)
 
 
-### 
+### 更简短的快捷键 Alias
+* `git`。首推git插件，它提供的是一个__全球统一__的alias，只要是使用zsh的终端都可以使用同样的缩略命令，常用的有比如`gst``gca``gca!``gcan!``gup``gp``gcb``gcf``gcm``gco`等，完整的命令列表可以参考[`zsh-git`github的官方wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
+
 * git
 * vim的语法高亮
 * git-completion git命令的自动补全
