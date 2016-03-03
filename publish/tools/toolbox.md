@@ -12,7 +12,6 @@
 ## 终端
 * [iTerm2](https://www.iterm2.com/features.html)。这个终端具备比默认终端terminal更强悍的能力，具体的请见[iTerm2一节](./iterm2.md)
 * [Oh My Zsh](http://ohmyz.sh/)。如果说有了终端，一切都有了命令行操作的可能，那么oh-my-zsh则是带领终端走入了彩色时代。它不仅提供了主题themes，还提供了一套插件和工具（比如全球通用的git别名表等），使许多终端的工作变得简单。[这里](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview)有许多有价值的插件。
-* z/autojump。快速目录进入工具，应归属“终端/命令行使用”一类话题
 
 
 ## IAAS(基础设施即服务管理)神器
