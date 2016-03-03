@@ -21,8 +21,30 @@ zsh默认的安装位置是在`~/.oh-my-zsh`文件夹下，同时在你的根目
 
 
 ## 插件 Plugins
+就我所了解，zsh的插件并不提供实质性的功能，比如`git`插件，并不会自带git的命令行工具。插件提供的更多的是__集成__和__alias__的功能，只是为了让你在终端能更好更快地使用它。当然也有一些提供了便捷功能的插件，比如目录自动跳转等。
+
+插件开启在`~/.zshrc`文件的`plugins=(git ...)`一行配置，加入插件名并以空格分隔即可。所有的插件都已经放置在`~/.oh-my-zsh/plugins`目录下了。下面推荐一些个人比较推荐的插件，更多的插件可以在[github的官方wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview)查询。
+
+```sh
+git brew osx sublime history colorize copydir colored-man-pages zsh-syntax-highlighting zsh-history-substring-search.zsh
+```
+
+### 自动跳转 Fast Jumping 
+* `autojump`。没有结果预览，不太友好
+* `z`。UI非常友好，并且有多个结果时支持使用TAB键进行导航特点是刚开始用要先进去你的目录让它“学习”
+* `wd`。可以给特定的目录“注册”（`wd add name`）别名，然后直接输入别名即可进入目录，特点是只能跳转到已注册的目录。但支持键盘操作，属于…可有可无的插件
+
+目前题主我三个工具都启用了，但打算关闭autojump，因为觉得z的UI更加友好
+
+![zsh-plugins-autojump](./figures/zsh-plugins-autojump.png)
+
+![zsh-plugins-z](./figures/zsh-plugins-z.png)
+
+![zsh-plugins-wd](./figures/zsh-plugins-wd.png)
+
+
+### 
 * git
-* z/autojump 两者谁更好用些，我是觉得z的路径要更友好些，但需要时间让它学习
 * vim的语法高亮
 * git-completion git命令的自动补全
 * zsh-completion zsh命令的自动补全
