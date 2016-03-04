@@ -7,5 +7,7 @@
    * [iTerm2及实用特性 Handy Features](publish/tools/iterm2.md)
    * [oh-my-zsh](publish/tools/oh-my-zsh.md)
 * [开发工具集 Development Toolbox](publish/development-tools/index.md)
+* [个人知识管理 Personal Knowledge Management](publish/personal/knowledge-management.md)
+* [备份体系 Storage and Synchronization](publish/backup/storage-and-synchronization.md)
 * [参考文章 Reference](publish/reference/reference.md)
 
