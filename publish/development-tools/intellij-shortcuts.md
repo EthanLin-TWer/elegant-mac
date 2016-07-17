@@ -25,33 +25,83 @@
 
 ### 生产力（Productive）
 
-| Operation | Description | Mac OSX 10.5+ |
-| :---      | :---        | :---          |
+| Operation | Description | Mac OSX 10.5+ | Comments |
+| :---      | :---        | :---          | :---     |
+| 模板插入 | Insert live template | ⌘+J | 插入一个符合某结构特征的模板，详解见下 |
+| 命令查询 | Find actions | ⇧+⌘+S | 以名称的形式查询某个操作或快捷键，是声明式编程思想的践行者 |
+| 意图预测与智能帮助 | Show intention actions | ⌥+Enter | 简单重构、移除死代码、结构调整、自动导包等|
+
+#### 模板补全
+* `ifn`: `if (<template> == null)`
+* `inn`: `if (<template> != null)`
+* `fori`: `for (int <template> = 0; i < <template>; i++)`
+* `foreach`: `for (<className> <objectname> : <fromList>)`一般不这么用，一般在一个具体的可迭代元素（比如数组、List、Map等）上使用后向声明完成补全
+
+* `thr`: `throw new <exception>`
+* `todo`: `// TODO: `
+* `fixme`: `// Fixme: `
+
+* `inst`: `if (<variable> instanceof <target_class>)`
+* `sout`: `System.out.println(<template>)`
+
+#### 后向声明
+根据类型不同而不同。
+
+* string.`null`: `if (string == null)`
+* string.`notnull`: `if (string != null)`
+
+这两种形式我更倾向于使用模板补全，因为模板专注于“结构”本身，而后向声明的关注点依然在某个 元素（String）的行为（空还是非空），更倾向于细节，与声明式使用理念不符。
+* string.`try`
+* string.`cast`
+* string.`var`
+* string.`return`
+* string.`format`
+* string.`field`: 直接转换为类的字段
+* string.`sout`
+
+* integer.`try`
+* integer.`var`
+* integer.`field`
+* integer.`switch`
+* integer.`cast`
+* integer.`return`
+* integer.`sout`
+* integer.`fori`
+* integer.`forr(everse)`
+
+* boolean.`if`
+* boolean.`else`
+* boolean.`not`
+
+* lists.`for`
+* lists.`iter`
+* lists.`fori` 需要索引或中途退出时使用
+
 
 ### 编辑（Editing）
 
-| Operation | Description | Mac OSX 10.5+ |
-| :---      | :---        | :---          |
+| Operation | Description | Mac OSX 10.5+ | Comments |
+| :---      | :---        | :---          | :---     |
 
 ### 导航（Navigation）
 
-| Operation | Description | Mac OSX 10.5+ |
-| :---      | :---        | :---          |
+| Operation | Description | Mac OSX 10.5+ | Comments |
+| :---      | :---        | :---          | :---     |
 
 ### 重构（Refactor）
 
-| Operation | Description | Mac OSX 10.5+ |
-| :---      | :---        | :---          |
+| Operation | Description | Mac OSX 10.5+ | Comments |
+| :---      | :---        | :---          | :---     |
 
 ### 搜索（Searching)
 
-| Operation | Description | Mac OSX 10.5+ |
-| :---      | :---        | :---          |
+| Operation | Description | Mac OSX 10.5+ | Comments |
+| :---      | :---        | :---          | :---     |
 
 ### 运行时（Runtime）
 
-| Operation | Description | Mac OSX 10.5+ |
-| :---      | :---        | :---          |
+| Operation | Description | Mac OSX 10.5+ | Comments |
+| :---      | :---        | :---          | :---     |
 
 ## TODOLIST
 
