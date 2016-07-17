@@ -50,12 +50,12 @@ public void printTotalAmount(List<Product> purchasings) {
 | 1. 选中banner一行，移到行头，全选该行 | 1. 使用鼠标或键盘将光标定位到banner一行 |
 | 2. 剪切该行 | 2. 使用重构快捷键：Command+Alt+M，输入新重构的方法名`printBanner`，回车确认 |
 | 3. 使用鼠标或键盘将光标移动到方法末尾，换行 | |
-| 4. 打字：`public void printBanner() {}` 以创建新的方法 | IDE会负责创建新的方法 |
-| 5. 将光标移动到中括号{}中间，粘贴刚刚剪切的一行代码 | IDE会负责将待重构方法剪切到新的方法体中 |
-| 6. 回到老代码所在位置，打字：`printBanner();` 以调用重构的新方法 | IDE会负责移除老方法，创建对新方法的调用 |
+| 4. 打字：`public void printBanner() {}` 以创建新的方法 | |
+| 5. 将光标移动到中括号{}中间，粘贴刚刚剪切的一行代码 | |
+| 6. 回到老代码所在位置，打字：`printBanner();` 以调用重构的新方法 | |
 | 7~12. 重复1-6的步骤，重构`printFooter`方法 | 3~4. 重复1~2的步骤，重构`pringFooter`方法 |
 | 13~18. 重复1-6的步骤，重构`printTotalAmount`方法 | 5~6. 重复1~2的步骤，重构`printTotalAmount`方法 |
-| 19. 使用鼠标或键盘定位光标到`double total = 0.0`一行 | IDE会自动检测输入变量并将其声明自动移到抽取的方法体内 |
+| 19. 使用鼠标或键盘定位光标到`double total = 0.0`一行 | |
 | 20. 移到行头，全选、剪切该行 ||
 | 21. 使用鼠标或键盘定位光标到重构的`printTotalAmount`方法起始处 ||
 | 22. 粘贴刚剪切的代码，换行，完成重构| |
