@@ -19,7 +19,39 @@
 
 在这方面，IDE提供的 **后向声明(Postfix Auto Completion)**、**自动补全(Auto Completion)** 等，都是这种思想的产物。你不需要关注操作所在的上下文，IDE会为你补全，你需要关注的是工作和操作本身。
 
+## 常用快捷键
 
+本章主要分几个部分来总结：生产力大杀器、编辑、导航、重构、搜索、运行时六个部分。中间一栏是该操作在IDEA中的操作名称，可以在keymap中搜索到。
+
+### 生产力（Productive）
+
+| Operation | Description | Mac OSX 10.5+ |
+| :---      | :---        | :---          |
+
+### 编辑（Editing）
+
+| Operation | Description | Mac OSX 10.5+ |
+| :---      | :---        | :---          |
+
+### 导航（Navigation）
+
+| Operation | Description | Mac OSX 10.5+ |
+| :---      | :---        | :---          |
+
+### 重构（Refactor）
+
+| Operation | Description | Mac OSX 10.5+ |
+| :---      | :---        | :---          |
+
+### 搜索（Searching)
+
+| Operation | Description | Mac OSX 10.5+ |
+| :---      | :---        | :---          |
+
+### 运行时（Runtime）
+
+| Operation | Description | Mac OSX 10.5+ |
+| :---      | :---        | :---          |
 
 ## TODOLIST
 
