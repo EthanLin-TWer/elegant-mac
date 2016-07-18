@@ -1,4 +1,4 @@
-# 快捷键：成吨提高Java编程开发效率
+# 快捷键Cheatsheet：成吨提高Java编程开发效率
 
 列这个快捷键一览表，我希望它是所有常用快捷键下的一个精华子集，是主观上使用频率最高的一组快捷键，而非任何形式的凑字数，否则直接查看[官方推荐的keymap](https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_mac.pdf)就好了。
 
@@ -19,11 +19,20 @@
 
 在这方面，IDE提供的 **后向声明(Postfix Auto Completion)**、**自动补全(Auto Completion)** 等，都是这种思想的产物。你不需要关注操作所在的上下文，IDE会为你补全，你需要关注的是工作和操作本身。
 
+## 本cheatsheet如何通用？
+
+像这种cheatsheet的记录，有可能会随时间或版本变迁而不再通用，过多的定制也可能使得追踪和维护成本增加。为了尽可能多地减少维护成本，尽可能长地保持这份cheatsheet的通用，下列快捷键的选取遵循以下几个原则：
+
+* 仅列出Mac版的快捷键
+* 统一采用Mac OSX 10.5+版本的keymap作为基准
+* 原则上对作为基准的Mac OSX 10.5+ keymap只删不改，即对不需要的快捷键可以删除，但对于已默认启用的快捷键不更改
+* 少部分确实需要更改的快捷键，我会采用*星号标明，并标明原因
+
 ## 常用快捷键
 
 本章主要分几个部分来总结：生产力大杀器、编辑、导航、重构、搜索、运行时六个部分。中间一栏是该操作在IDEA中的操作名称，可以在keymap中搜索到。
 
-### 生产力（Productive）
+### 生产力（Productivity）
 
 | Operation | Description | Mac OSX 10.5+ | Comments |
 | :---      | :---        | :---          | :---     |
@@ -92,6 +101,8 @@
 | 选中一个代码块 | Extend Selection | ⌥+Up | 常用 |
 | 取消代码块选中 | Shrink Selection | ⌥+Down | |
 |||||
+| 关闭当前标签 | Edit Tabs/Close | ⌘+W | 顺手就关吧，跟通常编辑器快捷键是一致的 |
+|||||
 | 优化import | Optimize Imports | ^+⌥+O | 没啥用 |
 | 格式化代码 | Reformat Code | ⌥+⌘+L | 没啥用 |
 
@@ -125,11 +136,20 @@
 | 后一个标签 | Select Next Tab | ⇧+⌘+] | |
 | 往上一级 | Navigate/Back | ⌥+⌘+Left/ ⌘+[ | 调代码，跟方法体系时，非常有用，下同 |
 | 往下一级 | Navigate/Forward | ⌥+⌘+Right/ ⌘+] | |
-|||||
+|||||
 | 转到下一个错误或警告 | Next Highlighted Error | F2 | 代码见红时，常用此快捷键快速定位，并配合万能快捷键⌥+Enter快速修复 |
 | 提示错误信息 | Error Description | ⌘+F1 | 不常用 |
 | 意图预测与智能帮助 | Show intention actions | ⌥+Enter | 简单重构、移除死代码、结构调整、自动导包等|
 |||||
+| project视图 | Other/Project | ⌘+1 | 有时导航项目结构时常用，不知是否有替代方案 |
+| search/find视图 | Other/Find | ⌘+3 | 除了这几个，其他视图都不常用 |
+| run视图 | Other/Run | ⌘+4 | 有时开关测试视图 |
+| debug视图 | Other/Debug | ⌘+5 | |
+| VCS视图 | Other/VCS | ⌘+9 | |
+| terminal视图 | Other/Terminal | * ⌘+0 | 自己改过，一是和各种视图快捷键保持一致，另外是原生的⌘+F12实在有点难按 |
+| 隐藏所有工具视图 | Hide All Tool Windows | ⇧+⌘+F12 | 同时开了工程和终端视图时一键回编程页面 |
+|||||
+| 跳转到第...行 | Navigate/Line... | ⌘+L | 属于细节型的活，能少用就多思考替代方案 |
 
 
 
