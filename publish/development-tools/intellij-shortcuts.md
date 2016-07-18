@@ -82,11 +82,29 @@
 
 | Operation | Description | Mac OSX 10.5+ | Comments |
 | :---      | :---        | :---          | :---     |
+| 基本代码补全 | Code/Completion/Basic | ^+Space | 一般都用这个补全，变量命名时及方法补全时常用 |
+| 智能补全 | Code/Completion/SmartType | ^+⇧+Space | 是否有必要记得两个快捷键？可以统一设成一个 |
+|||||
+| 上移/下移一行 | Move Line Up/Down | ⇧+⌥+Up/Down | 上下移一行。一般用于以单行出现的元素，否则会破坏元素间的关系 |
+| 上移/下移一个块 | Move Statement Up/Down | ⇧+⌘+Up/Down | |
+| 选中一个代码块 | Extend Selection | ⌥+Up | 常用 |
+| 取消代码块选中 | Shrink Selection | ⌥+Down | |
+|||||
+| 优化import | Optimize Imports | ^+⌥+O | 没啥用 |
+| 格式化代码 | Reformat Code | ⌥+⌘+L | 没啥用 |
+
+### 语言要素生成
+
+| Operation | Description | Mac OSX 10.5+ | Comments |
+| :---      | :---        | :---          | :---     |
+| 测试、方法生成 | Code/Generate | ^+Enter/ ⌘+N | 非常常用于创建测试方法、构造方法、覆写接口方法、覆写基类方法 |
 
 ### 导航（Navigation）
 
 | Operation | Description | Mac OSX 10.5+ | Comments |
 | :---      | :---        | :---          | :---     |
+| 从上方开始一行 | Start New Line Before Current | ⌥+⌘+Enter | |
+| 从下方开始一行 | Start New Line | ⇧+Enter | |
 
 ### 重构（Refactor）
 
