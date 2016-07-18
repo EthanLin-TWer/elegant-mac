@@ -34,11 +34,11 @@
 
 ### 生产力（Productivity）
 
-| Operation | Description | Mac OSX 10.5+ | Comments |
+| Operation | Mac OSX 10.5+ | Comments | Description |
 | :---      | :---        | :---          | :---     |
-| 模板插入 | Insert live template | ⌘+J | 插入一个符合某结构特征的模板，详解见下 |
-| 命令查询 | Find actions | ⇧+⌘+S | 以名称的形式查询某个操作或快捷键，是声明式编程思想的践行者 |
-| 意图预测与智能帮助 | Show intention actions | ⌥+Enter | 简单重构、移除死代码、结构调整、自动导包等|
+| 模板插入 | ⌘+J | 插入一个符合某结构特征的模板，详解见下 | Insert live template |
+| 命令查询 | ⇧+⌘+S | 以名称的形式查询某个操作或快捷键，是声明式编程思想的践行者 | Find actions |
+| 意图预测与智能帮助 | ⌥+Enter | 简单重构、移除死代码、结构调整、自动导包等| Show intention actions |
 
 #### 模板补全
 * `ifn`: `if (<template> == null)`
@@ -89,83 +89,83 @@
 
 ### 编辑（Editing）
 
-| Operation | Description | Mac OSX 10.5+ | Comments |
+| Operation | Mac OSX 10.5+ | Comments | Description |
 | :---      | :---        | :---          | :---     |
-| 基本代码补全 | Code/Completion/Basic | ^+Space | 一般都用这个补全，变量命名时及方法补全时常用 |
-| 智能补全 | Code/Completion/SmartType | ^+⇧+Space | 是否有必要记得两个快捷键？可以统一设成一个 |
+| 基本代码补全 | ^+Space | 一般都用这个补全，变量命名时及方法补全时常用 | Code/Completion/Basic |
+| 智能补全 | ^+⇧+Space | 是否有必要记得两个快捷键？可以统一设成一个 | Code/Completion/SmartType |
 |||||
-| 从上方开始一行 | Start New Line Before Current | ⌥+⌘+Enter | |
-| 从下方开始一行 | Start New Line | ⇧+Enter | |
-| 上移/下移一行 | Move Line Up/Down | ⇧+⌥+Up/Down | 上下移一行。一般用于以单行出现的元素，否则会破坏元素间的关系 |
-| 上移/下移一个块 | Move Statement Up/Down | ⇧+⌘+Up/Down | |
-| 选中一个代码块 | Extend Selection | ⌥+Up | 常用 |
-| 取消代码块选中 | Shrink Selection | ⌥+Down | |
+| 从上方开始一行 | ⌥+⌘+Enter | | Start New Line Before Current |
+| 从下方开始一行 | ⇧+Enter | | Start New Line |
+| 上移/下移一行 | ⇧+⌥+Up/Down | 上下移一行。一般用于以单行出现的元素，否则会破坏元素间的关系 | Move Line Up/Down |
+| 上移/下移一个块 | ⇧+⌘+Up/Down | | Move Statement Up/Down |
+| 选中一个代码块 | ⌥+Up | 常用 | Extend Selection |
+| 取消代码块选中 | ⌥+Down | | Shrink Selection |
 |||||
-| 关闭当前标签 | Edit Tabs/Close | ⌘+W | 顺手就关吧，跟通常编辑器快捷键是一致的 |
+| 关闭当前标签 | ⌘+W | 顺手就关吧，跟通常编辑器快捷键是一致的 | Edit Tabs/Close |
 |||||
-| 优化import | Optimize Imports | ^+⌥+O | 没啥用 |
-| 格式化代码 | Reformat Code | ⌥+⌘+L | 没啥用 |
+| 优化import | ^+⌥+O | 没啥用 | Optimize Imports |
+| 格式化代码 | ⌥+⌘+L | 没啥用 | Reformat Code |
 
 ### 语言要素生成
 
-| Operation | Description | Mac OSX 10.5+ | Comments |
+| Operation | Mac OSX 10.5+ | Comments | Description |
 | :---      | :---        | :---          | :---     |
-| 测试、方法生成 | Code/Generate | ^+Enter/ ⌘+N | 非常常用于创建测试方法、构造方法、覆写接口方法、覆写基类方法 |
-| 创建类、文件、目录 | Code/Generate | ⌘+N | 常用 |
+| 测试、方法生成 | ^+Enter/ ⌘+N | 非常常用于创建测试方法、构造方法、覆写接口方法、覆写基类方法 | Code/Generate |
+| 创建类、文件、目录 | ⌘+N | 常用 | Code/Generate |
 
 ### 导航（Navigation）
 
-| Operation | Description | Mac OSX 10.5+ | Comments |
+| Operation | Mac OSX 10.5+ | Comments | Description |
 | :---      | :---        | :---          | :---     |
-| 转到方法/字段的声明 | Navigation/Declaration | ⌘+B | 调试跟代码都很常用 |
+| 转到方法/字段的声明 | ⌘+B | 调试跟代码都很常用 | Navigation/Declaration |
 | 转到方法/字段的实现点 | Navigation/Implementation(s) | ⌥+⌘+B | 同上，常用 |
-| 转到方法/字段类型的类定义处 | Navigation/Type Declaration | ⇧+⌘+B/ ⇧+^+B | 常由下两个快捷键取代 |
-| 当前类与单元测试间跳转 | Navigate/Test | ⇧+⌘+T | 非常方便 |
+| 转到方法/字段类型的类定义处 | ⇧+⌘+B/ ⇧+^+B | 常由下两个快捷键取代 | Navigation/Type Declaration |
+| 当前类与单元测试间跳转 | ⇧+⌘+T | 非常方便 | Navigate/Test |
 |||||
-| 跳转到当前类的基类 | Super Method | ⌘+U | 配套食用，效果更佳 |
-| 类继承体系 | Type Hierarchy | ^+H | |
-| 方法继承层次 | Method Hierarchy | ⇧+⌘+H | |
-| 当前方法调用链 | Call Hierarchy | ^+⌥+H ||
-| 本类及所有基类方法列表 | File Structure | ⌘+F12 ||
+| 跳转到当前类的基类 | ⌘+U | 配套食用，效果更佳 | Super Method |
+| 类继承体系 | ^+H | | Type Hierarchy |
+| 方法继承层次 | ⇧+⌘+H | | Method Hierarchy |
+| 当前方法调用链 | ^+⌥+H || Call Hierarchy |
+| 本类及所有基类方法列表 | ⌘+F12 || File Structure |
 |||||
-| 类/方法/字段定义的快速预览 | Quick Definition | ⌥+Space/ ⌘+Y | 小览实现，一般可以看到方法/字段参数、返回值、前几行实现，快速的信息足够了 |
-| 方法文档快速预览 | Quick Documentation | ^+J | 看文档，我不常用 |
-| 方法参数快速预览 | Parameter Info | ⌘+P | 常用 |
+| 类/方法/字段定义的快速预览 | ⌥+Space/ ⌘+Y | 小览实现，一般可以看到方法/字段参数、返回值、前几行实现，快速的信息足够了 | Quick Definition |
+| 方法文档快速预览 | ^+J | 看文档，我不常用 | Quick Documentation |
+| 方法参数快速预览 | ⌘+P | 常用 | Parameter Info |
 |||||
-| 前一个标签 | Select Previous Tab | ⇧+⌘+[ | 导航常用，不过是否能以其他方式取代，比如声明式使用类查找⌘+O等。仍在探索 |
-| 后一个标签 | Select Next Tab | ⇧+⌘+] | |
-| 往上一级 | Navigate/Back | ⌥+⌘+Left/ ⌘+[ | 调代码，跟方法体系时，非常有用，下同 |
-| 往下一级 | Navigate/Forward | ⌥+⌘+Right/ ⌘+] | |
+| 前一个标签 | ⇧+⌘+[ | 导航常用，不过是否能以其他方式取代，比如声明式使用类查找⌘+O等。仍在探索 | Select Previous Tab |
+| 后一个标签 | ⇧+⌘+] | | Select Next Tab |
+| 往上一级 | ⌥+⌘+Left/ ⌘+[ | 调代码，跟方法体系时，非常有用，下同 | Navigate/Back |
+| 往下一级 | ⌥+⌘+Right/ ⌘+] | | Navigate/Forward |
 |||||
-| 转到下一个错误或警告 | Next Highlighted Error | F2 | 代码见红时，常用此快捷键快速定位，并配合万能快捷键⌥+Enter快速修复 |
-| 提示错误信息 | Error Description | ⌘+F1 | 不常用 |
-| 意图预测与智能帮助 | Show intention actions | ⌥+Enter | 简单重构、移除死代码、结构调整、自动导包等|
+| 转到下一个错误或警告 | F2 | 代码见红时，常用此快捷键快速定位，并配合万能快捷键⌥+Enter快速修复 | Next Highlighted Error |
+| 提示错误信息 | ⌘+F1 | 不常用 | Error Description |
+| 意图预测与智能帮助 | ⌥+Enter | 简单重构、移除死代码、结构调整、自动导包等| Show intention actions |
 |||||
-| project视图 | Other/Project | ⌘+1 | 有时导航项目结构时常用，不知是否有替代方案 |
-| search/find视图 | Other/Find | ⌘+3 | 除了这几个，其他视图都不常用 |
-| run视图 | Other/Run | ⌘+4 | 有时开关测试视图 |
-| debug视图 | Other/Debug | ⌘+5 | |
-| VCS视图 | Other/VCS | ⌘+9 | |
-| terminal视图 | Other/Terminal | * ⌘+0 | 自己改过，一是和各种视图快捷键保持一致，另外是原生的⌘+F12实在有点难按 |
-| 隐藏所有工具视图 | Hide All Tool Windows | ⇧+⌘+F12 | 同时开了工程和终端视图时一键回编程页面 |
+| project视图 | ⌘+1 | 有时导航项目结构时常用，不知是否有替代方案 | Other/Project |
+| search/find视图 | ⌘+3 | 除了这几个，其他视图都不常用 | Other/Find |
+| run视图 | ⌘+4 | 有时开关测试视图 | Other/Run |
+| debug视图 | ⌘+5 | | Other/Debug |
+| VCS视图 | ⌘+9 | | Other/VCS |
+| terminal视图 | * ⌘+0 | 自己改过，一是和各种视图快捷键保持一致，另外是原生的⌘+F12实在有点难按 | Other/Terminal |
+| 隐藏所有工具视图 | ⇧+⌘+F12 | 同时开了工程和终端视图时一键回编程页面 | Hide All Tool Windows |
 |||||
 | 跳转到第...行 | Navigate/Line... | ⌘+L | 属于细节型的活，能少用就多思考替代方案 |
 
 
-
 ### 重构（Refactor）
 
-| Operation | Description | Mac OSX 10.5+ | Comments |
+| Operation | Mac OSX 10.5+ | Comments | Description |
 | :---      | :---        | :---          | :---     |
+
 
 ### 搜索（Searching)
 
-| Operation | Description | Mac OSX 10.5+ | Comments |
+| Operation | Mac OSX 10.5+ | Comments | Description |
 | :---      | :---        | :---          | :---     |
 
 ### 运行时（Runtime）
 
-| Operation | Description | Mac OSX 10.5+ | Comments |
+| Operation | Mac OSX 10.5+ | Comments | Description |
 | :---      | :---        | :---          | :---     |
 
 ## TODOLIST
