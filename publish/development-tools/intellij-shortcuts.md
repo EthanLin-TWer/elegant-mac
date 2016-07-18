@@ -93,6 +93,7 @@
 | :---      | :---        | :---          | :---     |
 | 基本代码补全 | ^+Space | 一般都用这个补全，变量命名时及方法补全时常用 | Code/Completion/Basic |
 | 智能补全 | ^+⇧+Space | 是否有必要记得两个快捷键？可以统一设成一个 | Code/Completion/SmartType |
+| 语句补全 | ⇧+⌘+Enter | 直接补全当前语句，在括号特别多时非常有用 | Complete Current Statement |
 |||||
 | 从上方开始一行 | ⌥+⌘+Enter | | Start New Line Before Current |
 | 从下方开始一行 | ⇧+Enter | | Start New Line |
@@ -101,7 +102,11 @@
 | 选中一个代码块 | ⌥+Up | 常用 | Extend Selection |
 | 取消代码块选中 | ⌥+Down | | Shrink Selection |
 |||||
-| 关闭当前标签 | ⌘+W | 顺手就关吧，跟通常编辑器快捷键是一致的 | Edit Tabs/Close |
+| 重复当前行 | ⌘+D | | Duplicate Current Line or Block |
+| 复制并且不删除当前行 | ⌘+C | Edit/Copy |
+| 剪切当前行并复制到粘贴板 | ⌘+X | | Edit/Cut |
+| 关闭当前标签 | ⌘+W | 跟通常编辑器快捷键一致 | Edit Tabs/Close |
+| 注释当前行 | ⌘+/ | 随手一注释 | Comment with Line Comment |
 |||||
 | 优化import | ^+⌥+O | 没啥用 | Optimize Imports |
 | 格式化代码 | ⌥+⌘+L | 没啥用 | Reformat Code |
@@ -112,6 +117,8 @@
 | :---      | :---        | :---          | :---     |
 | 测试、方法生成 | ^+Enter/ ⌘+N | 非常常用于创建测试方法、构造方法、覆写接口方法、覆写基类方法 | Code/Generate |
 | 创建类、文件、目录 | ⌘+N | 常用 | Code/Generate |
+| 创建override方法 | ^+O | 有用 | Override Methods |
+| 创建接口方法实现 | ^+I | 有用 | Implement Methods |
 
 ### 导航（Navigation）
 
