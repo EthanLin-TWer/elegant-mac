@@ -103,7 +103,7 @@
 | 取消代码块选中 | ⌥+Down | | Shrink Selection |
 |||||
 | 重复当前行 | ⌘+D | | Duplicate Current Line or Block |
-| 复制并且不删除当前行 | ⌘+C | Edit/Copy |
+| 复制并且不删除当前行 | ⌘+C | | Edit/Copy |
 | 剪切当前行并复制到粘贴板 | ⌘+X | | Edit/Cut |
 | 关闭当前标签 | ⌘+W | 跟通常编辑器快捷键一致 | Edit Tabs/Close |
 | 注释当前行 | ⌘+/ | 随手一注释 | Comment with Line Comment |
@@ -167,13 +167,13 @@
 | 移动类/目录等 | F6 | | Refactor/Move |
 | 元素(类/方法/变量/…)重命名 | ⇧+F6 | 最常用的重构快捷键之一了吧 | Refactor/Rename |
 | 类/方法签名修改 | ⌘+F6 | | Refactor/Change Signature |
-|||
+|||||
 | 字段(类级别)抽取 | ⌥+⌘+F | | Extract/Field |
 | 常量(类级别)抽取 | ⌥+⌘+C | | Extract/Constant |
 | 变量(方法级别)抽取 | ⌥+⌘+V | | Extract/Variable |
 | 参数(方法级别)抽取 | ⌥+⌘+P | | Extract/Parameter |
 | 方法抽取 | ⌥+⌘+M | 最常用的重构快捷键之一 | Extract/Method |
-| 方法内联 | ⌥+⌘+N | | Refactor/Inline |g
+| 方法内联 | ⌥+⌘+N | | Refactor/Inline |
 
 
 ### 搜索（Searching)
@@ -199,7 +199,7 @@
 | 编译 | ⌘+F9 | 调bug时可能是忘了编译最新代码 | Make Project |
 | 运行(最近一个测试) | ^+R | 非常有用，有时可能节省在测试代码和源文件之间的切换 | Run/Run |
 | 调试 | ^+D | | Run/Debug |
-|||
+|||||
 | 打断点/取消断点 | ⌘+F8 | | Toggle Breakpoints |
 | 查看所有断点 | ⇧+⌘+F8 | | View Breakpoints |
 | 跳入 | F7 | | Run/Step Into |
