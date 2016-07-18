@@ -97,10 +97,10 @@
 |||||
 | 从上方开始一行 | ⌥+⌘+Enter | | Start New Line Before Current |
 | 从下方开始一行 | ⇧+Enter | | Start New Line |
-| 上移/下移一行 | ⇧+⌥+Up/Down | 上下移一行。一般用于以单行出现的元素，否则会破坏元素间的关系 | Move Line Up/Down |
-| 上移/下移一个块 | ⇧+⌘+Up/Down | | Move Statement Up/Down |
-| 选中一个代码块 | ⌥+Up | 常用 | Extend Selection |
-| 取消代码块选中 | ⌥+Down | | Shrink Selection |
+| 上移/下移一行 | ⇧+⌥+↑/↓ | 上下移一行。一般用于以单行出现的元素，否则会破坏元素间的关系 | Move Line Up/Down |
+| 上移/下移一个块 | ⇧+⌘+↑/↓ | | Move Statement Up/Down |
+| 选中一个代码块 | ⌥+↑ | 常用 | Extend Selection |
+| 取消代码块选中 | ⌥+↓ | | Shrink Selection |
 |||||
 | 重复当前行 | ⌘+D | | Duplicate Current Line or Block |
 | 复制并且不删除当前行 | ⌘+C | | Edit/Copy |
@@ -141,8 +141,8 @@
 |||||
 | 前一个标签 | ⇧+⌘+[ | 导航常用，不过是否能以其他方式取代，比如声明式使用类查找⌘+O等。仍在探索 | Select Previous Tab |
 | 后一个标签 | ⇧+⌘+] | | Select Next Tab |
-| 往上一级 | ⌥+⌘+Left/ ⌘+[ | 调代码，跟方法体系时，非常有用，下同 | Navigate/Back |
-| 往下一级 | ⌥+⌘+Right/ ⌘+] | | Navigate/Forward |
+| 往上一级 | ⌥+⌘+←/ ⌘+[ | 调代码，跟方法体系时，非常有用，下同 | Navigate/Back |
+| 往下一级 | ⌥+⌘+→/ ⌘+] | | Navigate/Forward |
 |||||
 | 转到下一个错误或警告 | F2 | 代码见红时，常用此快捷键快速定位，并配合万能快捷键⌥+Enter快速修复 | Next Highlighted Error |
 | 提示错误信息 | ⌘+F1 | 不常用 | Error Description |
