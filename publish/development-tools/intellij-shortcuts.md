@@ -85,6 +85,8 @@
 | 基本代码补全 | Code/Completion/Basic | ^+Space | 一般都用这个补全，变量命名时及方法补全时常用 |
 | 智能补全 | Code/Completion/SmartType | ^+⇧+Space | 是否有必要记得两个快捷键？可以统一设成一个 |
 |||||
+| 从上方开始一行 | Start New Line Before Current | ⌥+⌘+Enter | |
+| 从下方开始一行 | Start New Line | ⇧+Enter | |
 | 上移/下移一行 | Move Line Up/Down | ⇧+⌥+Up/Down | 上下移一行。一般用于以单行出现的元素，否则会破坏元素间的关系 |
 | 上移/下移一个块 | Move Statement Up/Down | ⇧+⌘+Up/Down | |
 | 选中一个代码块 | Extend Selection | ⌥+Up | 常用 |
@@ -98,13 +100,38 @@
 | Operation | Description | Mac OSX 10.5+ | Comments |
 | :---      | :---        | :---          | :---     |
 | 测试、方法生成 | Code/Generate | ^+Enter/ ⌘+N | 非常常用于创建测试方法、构造方法、覆写接口方法、覆写基类方法 |
+| 创建类、文件、目录 | Code/Generate | ⌘+N | 常用 |
 
 ### 导航（Navigation）
 
 | Operation | Description | Mac OSX 10.5+ | Comments |
 | :---      | :---        | :---          | :---     |
-| 从上方开始一行 | Start New Line Before Current | ⌥+⌘+Enter | |
-| 从下方开始一行 | Start New Line | ⇧+Enter | |
+| 转到方法/字段的声明 | Navigation/Declaration | ⌘+B | 调试跟代码都很常用 |
+| 转到方法/字段的实现点 | Navigation/Implementation(s) | ⌥+⌘+B | 同上，常用 |
+| 转到方法/字段类型的类定义处 | Navigation/Type Declaration | ⇧+⌘+B/ ⇧+^+B | 常由下两个快捷键取代 |
+| 当前类与单元测试间跳转 | Navigate/Test | ⇧+⌘+T | 非常方便 |
+|||||
+| 跳转到当前类的基类 | Super Method | ⌘+U | 配套食用，效果更佳 |
+| 类继承体系 | Type Hierarchy | ^+H | |
+| 方法继承层次 | Method Hierarchy | ⇧+⌘+H | |
+| 当前方法调用链 | Call Hierarchy | ^+⌥+H ||
+| 本类及所有基类方法列表 | File Structure | ⌘+F12 ||
+|||||
+| 类/方法/字段定义的快速预览 | Quick Definition | ⌥+Space/ ⌘+Y | 小览实现，一般可以看到方法/字段参数、返回值、前几行实现，快速的信息足够了 |
+| 方法文档快速预览 | Quick Documentation | ^+J | 看文档，我不常用 |
+| 方法参数快速预览 | Parameter Info | ⌘+P | 常用 |
+|||||
+| 前一个标签 | Select Previous Tab | ⇧+⌘+[ | 导航常用，不过是否能以其他方式取代，比如声明式使用类查找⌘+O等。仍在探索 |
+| 后一个标签 | Select Next Tab | ⇧+⌘+] | |
+| 往上一级 | Navigate/Back | ⌥+⌘+Left/ ⌘+[ | 调代码，跟方法体系时，非常有用，下同 |
+| 往下一级 | Navigate/Forward | ⌥+⌘+Right/ ⌘+] | |
+|||||
+| 转到下一个错误或警告 | Next Highlighted Error | F2 | 代码见红时，常用此快捷键快速定位，并配合万能快捷键⌥+Enter快速修复 |
+| 提示错误信息 | Error Description | ⌘+F1 | 不常用 |
+| 意图预测与智能帮助 | Show intention actions | ⌥+Enter | 简单重构、移除死代码、结构调整、自动导包等|
+|||||
+
+
 
 ### 重构（Refactor）
 
