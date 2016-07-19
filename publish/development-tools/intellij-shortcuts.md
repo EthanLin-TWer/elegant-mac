@@ -30,12 +30,12 @@
 
 ## 常用快捷键
 
-本章主要分几个部分来总结：生产力大杀器、编辑、导航、重构、搜索、运行时六个部分。最后一栏是该操作在IDEA中的操作名称，可以在keymap中检索对应的action/shortcut。
+本章主要分七个部分展开总结：生产力大杀器、语言要素生成、编辑、导航、重构、搜索、运行时。版本控制的部分未录入，原因是我倾向于使用命令行提交，而非IDE内置VCS支持。见仁见智。最后一栏是该操作在IDEA中的操作名称，可以在keymap中检索对应的action/shortcut找到。
 
 ### 生产力（Productivity）
 
 | Operation | Mac OSX 10.5+ | Comments | Description |
-| :---      | :---:        | :---          | :---     |
+| :---      | :---:        | :---:          | :---     |
 | 模板补全 | ⌘+J | 插入一个符合某结构特征的模板，详解见下 | Insert live template |
 | 命令查询 | ⇧+⌘+S | 以名称的形式查询某个操作或快捷键，是声明式编程思想的完美体现 | Find actions |
 | 意图预测与智能帮助 | ⌥+Enter | 简单重构、移除死代码、结构调整、自动导包等| Show intention actions |
@@ -85,7 +85,7 @@
 ### 编辑（Editing）
 
 | Operation | Mac OSX 10.5+ | Comments | Description |
-| :---      | :---        | :---          | :---     |
+| :---:      | :---:        | :---:          | :---     |
 | 基本代码补全 | ^+Space | 一般都用这个补全，变量命名时及方法补全时常用 | Code/Completion/Basic |
 | 智能补全 | ^+⇧+Space | 是否有必要记得两个快捷键？可以统一设成一个 | Code/Completion/SmartType |
 | 语句补全 | ⇧+⌘+Enter | 直接补全当前语句，在括号特别多时非常有用 | Complete Current Statement |
@@ -106,10 +106,10 @@
 | 优化import | ^+⌥+O | 没啥用 | Optimize Imports |
 | 格式化代码 | ⌥+⌘+L | 没啥用 | Reformat Code |
 
-### 语言要素生成
+### 语言要素生成（Language Elements/Features）
 
 | Operation | Mac OSX 10.5+ | Comments | Description |
-| :---      | :---        | :---          | :---     |
+| :---      | :---:        | :---:          | :---     |
 | 测试、方法生成 | ^+Enter/ ⌘+N | 非常常用于创建测试方法、构造方法、覆写接口方法、覆写基类方法 | Code/Generate |
 | 创建类、文件、目录 | ⌘+N | 常用 | Code/Generate |
 | 创建override方法 | ^+O | 有用 | Override Methods |
@@ -118,7 +118,7 @@
 ### 导航（Navigation）
 
 | Operation | Mac OSX 10.5+ | Comments | Description |
-| :---      | :---        | :---          | :---     |
+| :---:      | :---:        | :---:          | :---     |
 | 转到方法/字段的声明 | ⌘+B | 调试跟代码都很常用 | Navigation/Declaration |
 | 转到方法/字段的实现点 | Navigation/Implementation(s) | ⌥+⌘+B | 同上，常用 |
 | 转到方法/字段类型的类定义处 | ⇧+⌘+B/ ⇧+^+B | 常由下两个快捷键取代 | Navigation/Type Declaration |
@@ -157,7 +157,7 @@
 ### 重构（Refactor）
 
 | Operation | Mac OSX 10.5+ | Comments | Description |
-| :---      | :---        | :---          | :---     |
+| :---:      | :---:        | :---:          | :---     |
 | 复制类/目录等 | F5 | | Refactor/Copy |
 | 移动类/目录等 | F6 | | Refactor/Move |
 | 元素(类/方法/变量/…)重命名 | ⇧+F6 | 最常用的重构快捷键之一了吧 | Refactor/Rename |
@@ -174,7 +174,7 @@
 ### 搜索（Searching)
 
 | Operation | Mac OSX 10.5+ | Comments | Description |
-| :---      | :---        | :---          | :---     |
+| :---:      | :---:        | :---:          | :---     |
 | 搜索 | ⌘+F | 通常快捷键 | Find/Find |
 | 替换 | ⌘+R | 正则发挥作用的地方 | Find/Replace |
 | 查找引用点 | ⌥+F7 | 重构或调试的时候经常用到，使用频率高 | Find/Find usages |
@@ -190,7 +190,7 @@
 ### 运行时（Runtime）
 
 | Operation | Mac OSX 10.5+ | Comments | Description |
-| :---      | :---        | :---          | :---     |
+| :---:      | :---:        | :---:          | :---     |
 | 编译 | ⌘+F9 | 调bug时可能是忘了编译最新代码 | Make Project |
 | 运行(最近一个测试) | ^+R | 非常有用，有时可能节省在测试代码和源文件之间的切换 | Run/Run |
 | 调试 | ^+D | | Run/Debug |
