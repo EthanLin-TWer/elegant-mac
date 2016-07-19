@@ -2,89 +2,84 @@
 
 列这个快捷键一览表，我希望它是所有常用快捷键下的一个精华子集，是主观上使用频率最高的一组快捷键，而非任何形式的凑字数，否则直接查看[官方推荐的keymap](https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_mac.pdf)就好了。
 
-一方面快捷键需要刻意练习以至生巧，另一方面也要快捷背后的理念。IDE与电脑作为工具，永远是高效完成特定工作的辅助，因此，在这个过程 **工作** 是 工具辅助的核心对象。如何更高效地专注于工作本身呢？围绕Intellij快捷键展开的工作系统与思维模式本身，实质性提高效率的理念是什么呢？
+一方面快捷键需要刻意练习以至生巧，另一方面也要了解快捷背后的理念。IDE与电脑作为工具，永远是高效完成特定工作的辅助，因此，在这个过程 **工作** 是 工具辅助的核心对象。如何更高效地专注于工作本身呢？围绕Intellij快捷键展开的工作系统与思维模式本身，实质性提高效率的理念是什么呢？我的回答是：
 
 * 更高层次的抽象
 * 声明式使用
 
 ## 更高层次的抽象
 
-指的是从代码、从语言本身特性的层面思考编程，而非单纯的文本或者字符串。要把思维从“剪切复制去到这行去到那行”等把代码当成无意义字符的低层面活动，转变到以作为语言核心的要素和特性为单位的思考，比如类、变量、方法、重命名、重构、if-else、循环、可循环元素等。
+更高层次的抽象，指的是从代码、从语言本身特性的层面思考编程，而非单纯的文本或者字符串。要把思维从“把这五行代码剪切并复制到一个新的方法里”等把代码当成无意义字符的低层面活动，转变到以作为语言核心的要素和特性为单位的思考，比如类、变量、方法、重命名、重构、if-else、循环、可循环元素等。
 
-在这方面，IDE提供的 **Live Template**、**重构**、部分后向声明等，都是这种思想的产物，即允许你从更高的层级来思考代码，进行编程。
+在这方面，IDE提供的 **Live Template**、**重构(Refactoring)**、部分后向声明等，都是这种思想的产物，允许你从更高的层级（语言特性、与Java高相关的重构）来思考代码，并尽量多地向上屏蔽细节。
 
 ## 声明式使用
 
-声明式使用，指的是直接使用你需要用于完成工作的元素（类、字段、方法等），让IDE为你自动补全缺少的声明或结构。这种思想同样贯穿这本工具集的始终，以更语义化（更高阶）的操作来使用工具。
+声明式使用，指的是直接使用你完成工作所需要的元素（类、字段、方法等），让IDE为你自动补全缺少的声明或定义。这种思想同样贯穿这本工具集的始终，以更语义化（更高阶）的操作来使用工具。
 
 在这方面，IDE提供的 **后向声明(Postfix Auto Completion)**、**自动补全(Auto Completion)** 等，都是这种思想的产物。你不需要关注操作所在的上下文，IDE会为你补全，你需要关注的是工作和操作本身。
 
 ## 本cheatsheet如何通用？
 
-像这种cheatsheet的记录，有可能会随时间或版本变迁而不再通用，过多的定制也可能使得追踪和维护成本增加。为了尽可能多地减少维护成本，尽可能长地保持这份cheatsheet的通用，下列快捷键的选取遵循以下几个原则：
+像这种cheatsheet的记录，有可能会随时间或版本变迁而不再通用，过多的定制也可能使得追踪和维护成本增加。为了尽可能多地减少维护成本，尽可能长地保持这份cheatsheet的有效性，下列快捷键的选取遵循以下几个原则：
 
 * 仅列出Mac版的快捷键
-* 统一采用Mac OSX 10.5+版本的keymap作为基准
-* 原则上对作为基准的Mac OSX 10.5+ keymap只删不改，即对不需要的快捷键可以删除，但对于已默认启用的快捷键不更改
+* 统一使用Mac OSX 10.5+版本的keymap作为基准
+* 原则上对作为基准的keymap只删不改，即可能删除不需要的快捷键，但非特殊原因则不会更改已默认启用的快捷键
 * 少部分确实需要更改的快捷键，我会采用*星号标明，并标明原因
 
 ## 常用快捷键
 
-本章主要分几个部分来总结：生产力大杀器、编辑、导航、重构、搜索、运行时六个部分。中间一栏是该操作在IDEA中的操作名称，可以在keymap中搜索到。
+本章主要分几个部分来总结：生产力大杀器、编辑、导航、重构、搜索、运行时六个部分。最后一栏是该操作在IDEA中的操作名称，可以在keymap中检索对应的action/shortcut。
 
 ### 生产力（Productivity）
 
 | Operation | Mac OSX 10.5+ | Comments | Description |
-| :---      | :---        | :---          | :---     |
-| 模板插入 | ⌘+J | 插入一个符合某结构特征的模板，详解见下 | Insert live template |
-| 命令查询 | ⇧+⌘+S | 以名称的形式查询某个操作或快捷键，是声明式编程思想的践行者 | Find actions |
+| :---      | :---:        | :---          | :---     |
+| 模板补全 | ⌘+J | 插入一个符合某结构特征的模板，详解见下 | Insert live template |
+| 命令查询 | ⇧+⌘+S | 以名称的形式查询某个操作或快捷键，是声明式编程思想的完美体现 | Find actions |
 | 意图预测与智能帮助 | ⌥+Enter | 简单重构、移除死代码、结构调整、自动导包等| Show intention actions |
 
-#### 模板补全
-* `ifn`: `if (<template> == null)`
-* `inn`: `if (<template> != null)`
-* `fori`: `for (int <template> = 0; i < <template>; i++)`
-* `foreach`: `for (<className> <objectname> : <fromList>)`一般不这么用，一般在一个具体的可迭代元素（比如数组、List、Map等）上使用后向声明完成补全
+#### 模板补全（Live Template）
 
-* `thr`: `throw new <exception>`
-* `todo`: `// TODO: `
-* `fixme`: `// Fixme: `
+敲完以下模板补全的keyword之后可以直接通过tab或回车触发模板补全，$1/$2...是需要你填充的模板变量。
 
-* `inst`: `if (<variable> instanceof <target_class>)`
-* `sout`: `System.out.println(<template>)`
+| Operation | Mac OSX 10.5+ Keyword | Expands to | Comments |
+| :---: | :---: | :---: | :---: |
+| 判空 | `ifn` | `if ($1 == null) {}` | 后向声明也有同样功能，读者可拣顺手的用 |
+| 判非空 | `inn` | `if ($1 != null) {}` | |
+| 创建索引循环 | `fori` | `for (int $1 = 0; $1 < $2; $1++) {}` | |
+| 添加TODO | `todo` | `// TODO: $1` | 非常声明式的用法 |
+| 添加Fixme | `fixme` | `// FIXME: 7/19/16 $1` | 同上 |
+| 类型关系判定 | `inst` | `if ($1 instanceof $2) {} ` | |
+| System.out | `sout` | `System.out.println($1); `| 必须入手的黑技能，调试打log的时候非常有用 |
 
-#### 后向声明
-根据类型不同而不同。
+#### 后向声明（Postfix Completion）
 
-* string.`null`: `if (string == null)`
-* string.`notnull`: `if (string != null)`
+[后向声明](https://blog.jetbrains.com/idea/2014/03/postfix-completion)是JetBrains系IDE的一项新功能，旨在减少光标经常性的前后移动，提高开发效率，形成这样的编程思维：先使用元素，再考虑变量声明或结构补全。它的主要功能是根据当前元素的属性，提供可能的行为建议，例如使用if-else结构包围、判（非）空、格式化、进行类型转换等。因此，后向声明所能提供的选择视元素（主要是变量）的不同而不同。
 
-这两种形式我更倾向于使用模板补全，因为模板专注于“结构”本身，而后向声明的关注点依然在某个 元素（String）的行为（空还是非空），更倾向于细节，与声明式使用理念不符。
-* string.`try`
-* string.`cast`
-* string.`var`
-* string.`return`
-* string.`format`
-* string.`field`: 直接转换为类的字段
-* string.`sout`
+所有元素都拥有的一些后向声明选择，仅选择我认为常用的：
 
-* integer.`try`
-* integer.`var`
-* integer.`field`
-* integer.`switch`
-* integer.`cast`
-* integer.`return`
-* integer.`sout`
-* integer.`fori`
-* integer.`forr(everse)`
+| Operation | Postfix Completion Keyword | Expands To | Comments | 
+| :---: | :---: | :---: | :---: |
+| 变量声明 | element.`var` | `Type $name = element;` | 必备技能，声明式使用的典范 |
+| 转换为类字段 | element.`field` | `private $Type element; ` | 刚发现的 |
+| 将当前变量打印到输出流 | element.`sout` | `System.out.println(element);` ||
+| 返回当前值 | element.`return` | `return element;` | |
+| 类型转换 | element.`cast` | `(($Type) element)` | |
 
-* boolean.`if`
-* boolean.`else`
-* boolean.`not`
+然后，对于特定的元素类型，有的后向声明还有非常实用的选项，比如字符串的判空、布尔值的if-else、列表的循环等等：
 
-* lists.`for`
-* lists.`iter`
-* lists.`fori` 需要索引或中途退出时使用
+| ElementType | Operation | Postfix Completion Keyword | Expands To | Comments | 
+| :--- | :---: | :---: | :---: | :---: |
+| 字符串 | 判空 | string.`null`| `if (string == null) {}` | |
+| | 判非空 | string.`notnull` | `if (string != null) {}` | |
+| 整数 | 分支 | int.`switch` | `switch (int) {}` | |
+| 布尔值 | 如果为真 | boolean.`if` | `if (boolean) {}` | |
+| | 如果为假 | boolean.`else` | `if (!boolean) {}` | |
+| | 反义 | boolean.`not` | `!boolean` | |
+| 列表 | 循环元素 | lists.`for` | `for (Type element : lists) {}` | 非常常用 |
+| | 带索引循环 | lists.`fori` | `for (int i = 0; i < lists.size(); i++) {}` | |
 
 
 ### 编辑（Editing）
