@@ -120,7 +120,7 @@
 | Operation | Mac OSX 10.5+ | Comments | Description |
 | :---:      | :---:        | :---:          | :---     |
 | 转到方法/字段的声明 | ⌘+B | 调试跟代码都很常用 | Navigation/Declaration |
-| 转到方法/字段的实现点 | Navigation/Implementation(s) | ⌥+⌘+B | 同上，常用 |
+| 转到方法/字段的实现点 | ⌥+⌘+B | 同上，常用 | Navigation/Implementation(s) |
 | 转到方法/字段类型的类定义处 | ⇧+⌘+B/ ⇧+^+B | 常由下两个快捷键取代 | Navigation/Type Declaration |
 | 当前类与单元测试间跳转 | ⇧+⌘+T | 非常方便 | Navigate/Test |
 |||||
@@ -151,7 +151,7 @@
 | terminal视图 | * ⌘+0 | 自己改过，一是和各种视图快捷键保持一致，另外是原生的⌘+F12实在有点难按 | Other/Terminal |
 | 隐藏所有工具视图 | ⇧+⌘+F12 | 同时开了工程和终端视图时一键回编程页面 | Hide All Tool Windows |
 |||||
-| 跳转到第...行 | Navigate/Line... | ⌘+L | 属于细节型的活，能少用就多思考替代方案 |
+| 跳转到第...行 | ⌘+L | 属于细节型的活，能少用就多思考替代方案 | Navigate/Line... |
 
 
 ### 重构（Refactor）
