@@ -6,13 +6,13 @@
 
 ```java
 public void printReceipt(List<Product> purchasings) {
-    double total = 0.0;
-
     System.out.println("*******************************");
-    for (Product purchasing : purchaings) {
-        total += purchasing.getPrice();
-    }
+
+    double total = purchasings.stream().reduce(0, (pur, chasing) -> {
+        pur.getPrice() + chasing.getPrice()
+    });
     System.out.println("total: " + total);
+
     System.out.println("-------------------------------");
 }
 ```
@@ -35,11 +35,9 @@ public void printFooter() {
 }
 
 public void printTotalAmount(List<Product> purchasings) {
-    double total = 0.0;
-
-    for (Product purchasing : purchaings) {
-        total += purchasing.getPrice();
-    }
+    double total = purchasings.stream().reduce(0, (pur, chasing) -> {
+        pur.getPrice() + chasing.getPrice()
+    });
 
     System.out.println("total: " + total);
 }
@@ -57,7 +55,7 @@ public void printTotalAmount(List<Product> purchasings) {
 | 6. 回到老代码所在位置，打字：`printBanner();` 以调用重构的新方法 | |
 | 7~12. 重复1-6的步骤，重构`printFooter`方法 | 3~4. 重复1~2的步骤，重构`pringFooter`方法 |
 | 13~18. 重复1-6的步骤，重构`printTotalAmount`方法 | 5~6. 重复1~2的步骤，重构`printTotalAmount`方法 |
-| 19. 使用鼠标或键盘定位光标到`double total = 0.0`一行 | |
+| 19. 使用鼠标或键盘定位光标到`double total = ...`一行 | |
 | 20. 移到行头，全选、剪切该行 ||
 | 21. 使用鼠标或键盘定位光标到重构的`printTotalAmount`方法起始处 ||
 | 22. 粘贴刚剪切的代码，换行，完成重构| |
