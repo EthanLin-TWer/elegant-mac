@@ -9,7 +9,7 @@ public void printReceipt(List<Product> purchasings) {
     System.out.println("*******************************");
 
     double total = purchasings.stream().reduce(0, (pur, chasing) -> {
-        pur.getPrice() + chasing.getPrice()
+        return pur.getPrice() + chasing.getPrice();
     });
     System.out.println("total: " + total);
 
@@ -36,7 +36,7 @@ public void printFooter() {
 
 public void printTotalAmount(List<Product> purchasings) {
     double total = purchasings.stream().reduce(0, (pur, chasing) -> {
-        pur.getPrice() + chasing.getPrice()
+        return pur.getPrice() + chasing.getPrice();
     });
 
     System.out.println("total: " + total);
