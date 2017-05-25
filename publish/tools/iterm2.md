@@ -53,6 +53,8 @@ iTerm这个终端具有比系统默认终端更强的能力，而term3则是最�
 
 ## 即时窗口 Hotkey Window
 
+> iTerm2 offers a special terminal window that is always available with a single keystroke.
+
 前面也提到了，**一个命令行工具的衡量标准，就是它能在多短的时间内达到可用的交互状态**。而 iTerm3 的即时窗口，就是对这个问题的需求的一个完美方案，这也是它之所以能成为最优秀的命令行工具的首要因素。对于**随手可达的命令行**这个需求，我探索过几种解决方案，列举分析如下：
 
 1. Alfred 的 RunCommand 插件
