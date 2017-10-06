@@ -17,6 +17,7 @@
   * 27寸大屏
   * iPhone
 * MAC OS 系统配置
+  * [祁兮 - 强迫症的 Mac 设置指南][macdao-ocd-guides]
 * Windows 篇？（因为在很多工作环境中，Windows 依然是避免不过去的坑）
 * 通用工具集
   * 程序员宜家四件套
@@ -89,3 +90,8 @@ Declarative 这词好像不太朗朗上口，要不要改成 intentional？你�
 ## 免费的永远是最贵的
 
 上面说的这些好功能，场景+快捷键支持啊、免干扰模式啊，有没有工具免费原生就提供给你呢？有。比如微信等。但更多情况下好东西要收点小费，或者免费版只有有限的功能。这种时候，一旦辨别出其价值所在，建议是马上剁手不要犹豫。花钱买时间、精力、资源，买的好是很划算的事情。
+
+
+---
+
+[macdao-ocd-guides]: https://github.com/macdao/ocds-guide-to-setting-up-mac
