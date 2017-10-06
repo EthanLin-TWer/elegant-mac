@@ -11,7 +11,7 @@
   * 声明式/意图式使用
   * Distraction Free
   * 免费的永远是最贵的
-  * 全键盘f
+  * 全键盘
   * 快捷键
 * 硬件配置篇
   * Mac OS
@@ -20,6 +20,7 @@
   * iPhone
 * MAC OS 系统配置
   * [祁兮 - 强迫症的 Mac 设置指南][macdao-ocd-guides]
+  * [高效 Macbook 工作环境配置][yumo-effective-mac]
 * Windows 篇？（因为在很多工作环境中，Windows 依然是避免不过去的坑）
 * 通用工具集
   * 程序员宜家四件套
@@ -97,3 +98,4 @@ Declarative 这词好像不太朗朗上口，要不要改成 intentional？你�
 ---
 
 [macdao-ocd-guides]: https://github.com/macdao/ocds-guide-to-setting-up-mac
+[yumo-effective-mac]: http://xialeizhou.com/2019/06/23/%E9%AB%98%E6%95%88macbook%E5%B7%A5%E4%BD%9C%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/
