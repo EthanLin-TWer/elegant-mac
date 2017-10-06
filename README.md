@@ -12,6 +12,8 @@
 
 这是我写作此书会尝试解答的问题。
 
+2017-10-06 补：「为什么要快」。其实也没有想多快，只是想在肉眼可见的范围内优化一下速度而已。爱快快，不爱看左上叉叉。不好意思右上。哪有那么多精力解释这个问题。
+
 ## 阅读地址
 
 [Linesh Gitbook: Elegant Mac Tools System Closure](https://www.gitbook.com/book/linesh/gitbook-elegant-mac-tools-system-closure/details)
