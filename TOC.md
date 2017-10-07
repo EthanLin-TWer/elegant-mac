@@ -34,10 +34,12 @@
     * Markdown
     * 翻墙业务
     * 英语
-  * 必备的技能
-    * 任务分解 Tasking
+  * 素养
+    * 任务分解
+    * 小步前进
+    * 快速反馈
 * 开发工具集
-  * JetBrains 系 - Intellij / Webstorm 
+  * JetBrains 系 - Intellij / WebStorm 
 * 方向与如何学习
   * 大脑认知机理
   * learning how to learn
@@ -46,7 +48,7 @@
 * GTD 个人时间管理
   * GTD 7步骤
 * 装机自动化 与 备份体系
-  * 软件安装 brew & cask & npm
+  * 软件安装 brew & cask & npm & App Store & 自己安装
   * 机密数据备份：dropbox + git 数据备份
   * 普通数据备份：云盘
   * 数据加密备份：stow
