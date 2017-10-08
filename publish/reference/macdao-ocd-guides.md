@@ -29,7 +29,6 @@
 * z - replacer for `cd`, `^R`, or aliases
 * vimium
 * Alfred 
-* 好歹是把四大神器基本全提到了
 
 ### IDEs 
 
