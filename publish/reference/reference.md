@@ -17,7 +17,9 @@
 
 ## 效率本身思考
 
-* [🌟🌟🌟🌟🌟] http://www.stevepavlinachina.com/20051019-what-is-productivity.html
+* [🌟🌟🌟🌟🌟] [Steve Pavlina - 什么是效率][]
+
+[Steve Pavlina - 什么是效率]: http://www.stevepavlinachina.com/20051019-what-is-productivity.html
 
 ## 阅知
 
