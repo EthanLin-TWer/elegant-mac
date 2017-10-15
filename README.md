@@ -21,6 +21,7 @@
 
 ## 待办事项(TODOLIST)
 
+* 提交格式：`[(prefix: book chapters)]: brief of added/amended content`
 * 录制操作的 gif
 * 自动压缩图片
 * 自动化本书提到所有工具的版本信息、下载链接信息的维护
