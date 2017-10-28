@@ -36,6 +36,21 @@ cloog018	git		hub		libassuan	makedepend	rbenv		watchman
 coreutils	git-flow	imagemagick	libgpg-error	maven		readline	wget
 ```
 
+需要这些信息：
+
+* 它们各自的版本（重要工具才需要）
+* 它们各自的依赖版本（重要工具才需要）
+* 配置文件
+
+一些工具性的文件需要再装好了。所以整理了一下，需要的只有下面这些：
+
+```bash
+docker
+git-quick-stats
+emojify
+
+```
+
 ### Cask 
 
 ```bash
