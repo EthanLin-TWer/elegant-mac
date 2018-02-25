@@ -25,7 +25,8 @@
 * [x] pre-requisites
   * [x] XCode 9.2 - in order to get `git` to work
   * [x] git - in order to get `brew` to work
-  * [ ] Java - in order to get things like `gradle`, `jenkins` to work
+  * [x] Java - in order to get things like `gradle`, `jenkins` to work
+  * [x] nvm https://github.com/creationix/nvm
 * [x] update brew & cask to latest
   * [x] `brew update`: https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md
   * [x] `brew cask` will install brew cask
@@ -51,47 +52,51 @@
     ```bash
     brew install autojump clisp docker emojify gradle maven groovy git-quick-stats ghi hub mysql watchman wget sqlite tldr tig
     ```
-  * [ ] cask apps
+  * [x] cask apps
     ```bash
     bk install java aerial android-studio bartender bettertouchtool boom cakebrew ccmenu charles cmdtap contexts dropbox emacs evernote expo-xde fastlane firefox flux frappe freshback genymotion gitbook gitbook-editor go2shell google-chrome istat-menus jitouch keycastr launchrocket manico mysqlworkbench neteasemusic ngrok paw pomotodo popclip qq quicksilver react-native-debugger sequel-pro shortcat sizeup skype slack sogouinput sublime-text tickeys ticktick torbrowser typora vagrant virtualbox vyprvpn xmind youku zeplin zoomus
     ```
-  * [ ] app store：它们都在 App Store 中存储着，只需要用一个同样的账号就可以了
+  * [x] app store：它们都在 App Store 中存储着，只需要用一个同样的账号就可以了
     ```bash
-
+    pages numbers smartkb keynote pocket amphetamine reeder3 hackrun deskcover marboolite xcode wechat
     ```
 * [ ] 系统三件套
-  * [ ] Toolbox + WebStorm
+  * [x] Toolbox + WebStorm
   * [ ] Chrome
   * [ ] Sublime
-  * [ ] Alfred
-* [ ] 次重要：随开机启动
+  * [x] Alfred - 垃圾备份，最重要的配置不见了 - 还好我机智，瞬间又好了
+  * [ ] sogou input
+* [x] 次重要：随开机启动
   * [x] Contexts: setup; license
   * [x] Flux 
   * [x] Boom: activate with license
   * [x] Dropbox: setup repos
-  * Pomodoro
-  * Ticktick
-  * Amphetamine
-  * Bartender
-  * iStats
-  * OctoMouse
-  * SogouInput
-  * Shortcat
-  * BaiduYunDisk old version with auto-sync enabled
-  * SizeUp
-  * Wechat
-  * Google Drive
-  * SmartKB
-* [ ] 其他 casks
-  * [x] Aerial: caches
-  * 
-* [ ] 三大备份系统设置
-* [ ] 其他文件夹
+  * [x] Bartender
+  * [x] Pomodoro
+  * [x] Ticktick
+  * [x] Amphetamine
+  * [x] iStats
+  * [x] OctoMouse
+  * [x] SogouInput
+  * [x] Shortcat
+  * [x] SizeUp
+  * [x] Wechat
+  * [x] SmartKB
+* [x] 三大备份系统设置
+  * [x] Dropbox
+  * [x] Google Drive
+  * [x] BaiduYunDisk
+* [x] 其他文件夹
+  * [x] code
+  * [x] personal
+* [ ] other softwares
+  * [x] toolbox
 
 ## 自动化
 
 * 安装、版本
 * 配置（设置项、快捷键）
+* usually it requires a manual setup 
 
 
 ## System Preferences
