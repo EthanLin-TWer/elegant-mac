@@ -65,7 +65,7 @@
   * [ ] Chrome
   * [ ] Sublime
   * [x] Alfred - 垃圾备份，最重要的配置不见了 - 还好我机智，瞬间又好了
-  * [ ] sogou input
+  * [x] sogou input
 * [x] 次重要：随开机启动
   * [x] Contexts: setup; license
   * [x] Flux 
@@ -91,6 +91,8 @@
   * [x] personal
 * [ ] other softwares
   * [x] toolbox
+  * [x] Font Books - export collection
+  * [ ] what else...?
 
 ## 自动化
 
