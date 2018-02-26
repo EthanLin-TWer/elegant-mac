@@ -31,7 +31,7 @@
   * [x] `brew update`: https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md
   * [x] `brew cask` will install brew cask
   * [x] `brew install brew-cask-completion`
-* [ ] basic infrastructures
+* [x] basic infrastructures
   * [x] iterm
     * [x] `brew cask install iterm2`
     * [x] configurations
@@ -43,8 +43,8 @@
     * [x] ssh keys
     * [x] zsh highlights,
     * [x] make `sudo` doesn't require a password: https://apple.stackexchange.com/questions/239606/change-sudoers-to-stop-asking-for-password-when-running-a-systemsetup-comman
-  * [ ] vpn
-    * [ ] openvpn
+  * [x] vpn
+    * [x] openvpn
       * https://mail.google.com/mail/u/1/#search/vpn/15f19e206e08e205
       * https://github.com/Homebrew/homebrew-php/issues/4527
     * [x] vpn 
@@ -60,10 +60,15 @@
     ```bash
     pages numbers smartkb keynote pocket amphetamine reeder3 hackrun deskcover marboolite xcode wechat
     ```
-* [ ] 系统三件套
+* [x] 系统三件套
   * [x] Toolbox + WebStorm
-  * [ ] Chrome
-  * [ ] Sublime
+  * [x] Chrome - 
+    * [x] settings
+    * [x] extensions
+      * [x] configurations
+    * [x] shortcuts
+    * [x] bookmarks
+  * [x] Sublime - 还是采用软件自身备份方式导出方式
   * [x] Alfred - 垃圾备份，最重要的配置不见了 - 还好我机智，瞬间又好了
   * [x] sogou input
 * [x] 次重要：随开机启动
@@ -82,6 +87,7 @@
   * [x] SizeUp
   * [x] Wechat
   * [x] SmartKB
+  * [x] Dash
 * [x] 三大备份系统设置
   * [x] Dropbox
   * [x] Google Drive
@@ -89,10 +95,10 @@
 * [x] 其他文件夹
   * [x] code
   * [x] personal
-* [ ] other softwares
+* [x] other softwares
   * [x] toolbox
   * [x] Font Books - export collection
-  * [ ] what else...?
+  * [x] what else...?
 
 ## 自动化
 
