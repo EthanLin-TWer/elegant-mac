@@ -14,6 +14,8 @@
 
 2017-10-06 补：「为什么要快」。其实也没有想多快，只是想在肉眼可见的范围内优化一下速度而已。爱快快，不爱看左上叉叉。不好意思右上。哪有那么多精力解释这个问题。
 
+2018-06-02 补：大伟讲的是团队角度的 TDD，它是推广的问题。TDD 和 TDD 推广是两个基本不相干的问题（如果不是毫不相干）。对于个人 TDD 这个事情，现在觉得没有必要多费口舌，爱学咱没有保留，不爱学左（右）上角。应该定这个调，纠结个啥。
+
 ## 阅读地址
 
 [Linesh Gitbook: Elegant Mac Tools System Closure](https://www.gitbook.com/book/linesh/gitbook-elegant-mac-tools-system-closure/details)
