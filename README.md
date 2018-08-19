@@ -11,4 +11,4 @@
 1. 假定 Mac 作为编程平台普遍上比 Windows 更加高效
 2. 只谈工作效率
 
-[elegant-mac]: https://www.gitbook.com/book/linesh/gitbook-elegant-mac-tools-system-closure/details
+[elegant-mac]: https://legacy.gitbook.com/book/linesh/elegant-mac/details
