@@ -23,23 +23,92 @@
 
 * [x] system preferences
 * [x] pre-requisites
-  * [x] XCode 9.2 - in order to get `git` to work
-  * [x] git - in order to get `brew` to work
-  * [x] Java - in order to get things like `gradle`, `jenkins` to work
-  * [x] nvm https://github.com/creationix/nvm
-* [x] update brew & cask to latest
+  * [x] XCode dev-tools - in order to get `git` to work
+  * [x] git - in order to get `brew` to work - but we'll replace it with brew installed ones later
+  * [ ] nvm https://github.com/creationix/nvm
+  * [ ] Java https://stackoverflow.com/a/52524114
+* [x] install brew & cask
+  * [x] install: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"` 
+    * 踩坑：[新来的Git要关闭sslVerify](https://confluence.atlassian.com/fishkb/unable-to-clone-git-repository-due-to-self-signed-certificate-376838977.html)
+    * 踩坑：[不要开防火墙](https://stackoverflow.com/a/52787557)
+    * 踩坑：[xcode-select --install](https://stackoverflow.com/a/33786214)
+    * 踩坑：[如果还是不行，不要用https拉Homebrew代码]()
+    * 连上手机热点终于成功了
   * [x] `brew update`: https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md
   * [x] `brew cask` will install brew cask
-  * [x] `brew install brew-cask-completion`
+  * [x] `brew tap buo/cask-upgrade`
+  * [x] `brew tap homebrew/cask-versions` - 可以装一些有版本管理的包，比如Java
+  * [x] 安装一下下面该装的软件
 * [x] basic infrastructures
-  * [x] iterm
-    * [x] `brew cask install iterm2`
-    * [x] configurations
+  * [x] install Brew apps: `brew install`  —— 新电脑配置好了可以到这边来更新
+    ```bash
+    adns			        jq			        openssl@1.1
+    autojump		        kubernetes-cli	
+    blueutil		        libassuan		    p11-kit
+    brew-cask-completion	libffi			    pcre
+    ccze			        libgcrypt		    pcre2
+    clisp			        libgpg-error		pinentry
+    			            libidn2 			pkg-config
+    diff-so-fancy		    libksba		
+    docker			        libsigsegv		    python@3.8
+    emojify			        libtasn1		    readline
+    			            libunistring		sphinx-doc
+    gdbm			        libusb  			sqlite
+    gettext     			libxmlsec1	    	thefuck
+    ghi         			libzip			    tig
+    git         			lua     			tldr
+    git-lfs     			lzo		        	tokyo-cabinet
+    git-quick-stats		    mas     			tree
+    		                maven   			unrar
+    gmp         			minikube    		watch
+    gnupg               						watchman
+    gnutls      			mysql   			wget
+    gradle      			nettle			    xz
+    groovy      			npth    			zsh
+    highlight				zsh-completions
+    hub         			oniguruma   		zsh-syntax-highlighting
+    jenkins     			openssl
+    ```
+  * [x] cask apps —— 新电脑配置好了可以到这边来更新
+    ```bash
+    aerial                     java8                      
+    alfred                     karabiner-elements         
+    aliwangwang                keycastr                   shortcat
+    baiducloud                 launchrocket               sizeup
+    baidunetdisk               minikube                   sketch
+    bartender                                             
+    boom                       neteasemusic               slack
+                               ngrok                      sogouinput
+    charles                    obs                        sublime-text
+    contexts                   paw                        
+    dash                       pomotodo                   thunder
+    docker                     provisionql                tickeys
+    dropbox                    qlcolorcode                ticktick
+    emacs                      qlimagesize                torbrowser
+    evernote                   qlmarkdown                 typora
+    fastlane                   qlprettypatch              vagrant
+    flux                       qlstephen                  virtualbox
+    gitbook                    qlvideo                    vlc
+    gitbook-editor             qq                         vyprvpn
+    go2shell                   quicklook-csv              webpquicklook
+    google-chrome              quicklook-json             xmind
+    google-chrome-canary       quicklookase               youku
+    istat-menus                quicksilver                
+    iterm2                     zoomus
+    ```
+    待安装：
+    google-backup-and-sync, octomouse, postman, megasync
+  * [x] app store：它们都在 App Store 中存储着，只需要用一个同样的账号就可以了
+    ```bash
+    pages numbers smartkb keynote pocket amphetamine reeder3 hackrun deskcover marboolite xcode wechat
+    ```
+  * [x] iterm configurations - see below
   * [x] zsh(should be shipped with Mac OSX automatically)
-    * [x] `brew install zsh zsh-completions`: https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
+    * https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
+    * [x] `brew install zsh zsh-completions`
   * [x] oh-my-zsh 
     * [x] `~/.zshrc`, `~/.oh-my-zsh` plugins and `ZSH_THEME_RANDOM_CANDIDATES`
-    * [x] `~/.bashrc`
+    * [x] `~/.bashrc` & `~/.pathsrc`
     * [x] ssh keys
     * [x] zsh highlights,
     * [x] make `sudo` doesn't require a password: https://apple.stackexchange.com/questions/239606/change-sudoers-to-stop-asking-for-password-when-running-a-systemsetup-comman
@@ -48,21 +117,10 @@
       * https://mail.google.com/mail/u/1/#search/vpn/15f19e206e08e205
       * https://github.com/Homebrew/homebrew-php/issues/4527
     * [x] vpn 
-  * [x] brew apps
-    ```bash
-    brew install autojump clisp docker emojify gradle maven groovy git-quick-stats ghi hub mysql watchman wget sqlite tldr tig
-    ```
-  * [x] cask apps
-    ```bash
-    bk install java aerial android-studio bartender bettertouchtool boom cakebrew ccmenu charles cmdtap contexts dropbox emacs evernote expo-xde fastlane firefox flux frappe freshback genymotion gitbook gitbook-editor go2shell google-chrome istat-menus jitouch keycastr launchrocket manico mysqlworkbench neteasemusic ngrok paw pomotodo popclip qq quicksilver react-native-debugger sequel-pro shortcat sizeup skype slack sogouinput sublime-text tickeys ticktick torbrowser typora vagrant virtualbox vyprvpn xmind youku zeplin zoomus
-    ```
-  * [x] app store：它们都在 App Store 中存储着，只需要用一个同样的账号就可以了
-    ```bash
-    pages numbers smartkb keynote pocket amphetamine reeder3 hackrun deskcover marboolite xcode wechat
-    ```
+* [ ] Setup folders
 * [x] 系统三件套
   * [x] Toolbox + WebStorm
-  * [x] Chrome - 
+  * [x] Chrome - can now all managed by an account
     * [x] settings
     * [x] extensions
       * [x] configurations
@@ -70,7 +128,9 @@
     * [x] bookmarks
   * [x] Sublime - 还是采用软件自身备份方式导出方式
   * [x] Alfred - 垃圾备份，最重要的配置不见了 - 还好我机智，瞬间又好了
-  * [x] sogou input
+  * [ ] Karabiner
+  * [x] Sogou input
+  * [ ] Dropbox 
 * [x] 次重要：随开机启动
   * [x] Contexts: setup; license
   * [x] Flux 
@@ -89,14 +149,11 @@
   * [x] SmartKB
   * [x] Dash
 * [x] 三大备份系统设置
-  * [x] Dropbox
-  * [x] Google Drive
-  * [x] BaiduYunDisk
-* [x] 其他文件夹
-  * [x] code
-  * [x] personal
+  * [ ] Dropbox
+  * [ ] Google Drive
+  * [ ] BaiduYunDisk
+  * [ ] Megasync
 * [x] other softwares
-  * [x] toolbox
   * [x] Font Books - export collection
   * [x] what else...?
 
@@ -106,7 +163,6 @@
 * 配置（设置项、快捷键）
 * usually it requires a manual setup 
 
-
 ## System Preferences
 
 > only changes required are listed
@@ -114,7 +170,7 @@
 ### general 
 
 * automatically hide and show the menu bar
-* ask to keep changes when closing documents
+* ask to keep changes when closing documents - off
 * default browser: chrome[depend on Chrome installation]
 * recent items: 5 documents, apps and servers 
 
@@ -130,28 +186,17 @@
 
 ### Dock 
 
-* **turn hiding on**
-* **turn magnification on**
-* position - bottom - no change
-* minimize using - genie effect - no change 
-* dock preferences
-  * size - 75%
-  * magnification - on - max - no change
-  * position on screen - bottom - no change
-  * minimize windows using: - genie effect - no change 
-  * perfer tabs - in full screen only - on change
-  * double-click a ... - no change
-  * **minimize windows into application icon - on**
-  * animate opening applications - on - no change
-  * **automatically hide and show the dock** - on
-  * show indicators for open applictionas on - - no change
-* **remove all applications from the dock**
+* adjust size to 75%
+* **turn magnification on and set to max**
+* **minimize windows into application icon - on**
+* **automatically hide and show the dock** - on
+* un-tick 'Show recent applications in Dock'
+* **remove all applications from the dock manually**
 
 ### mission control
 
-* automatically rearrange ... - yes - no change
-* when switching to ... - yes - no change
-* group windows by application - no - on change
+* **when switching to ... - no**
+* **group windows by application - no**
 * **displays have separate spaces - no**
 * disable all 'keyboard and mouse shortcuts' except for 'show desktop - F11'
 
@@ -159,22 +204,19 @@
 
 * first day of week: monday
 * time format: 24-hour time - yes
-* advanced - no change
+* advanced
+  * dates: short: YYYY-MM-DD
 
 ### security & privacy
 
 general: 
 
-* require password **immediately** - no change
-* show a message when the screen is locked
+* **require password - immediately**
+* show a message when the screen is locked - no
 * disable automatic logic - yes
 
-```
-             从前的日色变得慢        车，马，邮件都慢
-             一生只够爱一个人
-```
-
 filevault: on or off
+
 firewall: on with no changes
 
 privacy:
@@ -223,23 +265,26 @@ no changes
 
 * show battery status in menu bar - off - replaced by iStats
 * power adapter: 
+  * turn display off: 2 hours
   * prevent computer from sleeping automatically when the display is off - on 
   * enable Power Nap while plugged into a power adapter
 
 ### Keyboard
 
-* **full keyboard access: all controls** - important
-* modifier keys: caps lock -> control 
-
 keyboard
 
 * key repeat: fastest
 * delay until repeat: shortest
-* adjust keyboard brightness in low light - on
+* adjust keyboard brightness in low light - 30 seconds
 * use f1, f2, etc. keys as standard function keys - on
+* **modifier keys - no change** - delegate all to Karabiner
+
+text: no change at all
 
 shortcuts: 
 
+* **full keyboard access: all controls** - important
+* (2019) Use keyboard navigation to move focus between controls
 * launchpad & dock: all off
 * mission control: 
   * show desktop: f11
@@ -247,7 +292,10 @@ shortcuts:
   * mission control: move right a space: ^ ->
   * mission control: switch to desktop 1: ^1
 * keyboard: all off except 'move focus to next window: command + `'
-* screen shots: all on with a 'shift + command + ' 1/2/3/4 order
+* input sources: all off except 'select the previous input source: option + space' 
+* screen shots: 
+  * screenshots: 'shift + command + ' 1/2/3/4 order 
+  * others: off
 * services: all off
 * spotlight: all off when setup's done
 * accessibility: all off
@@ -263,24 +311,26 @@ input sources
 
 * show input menu in menu bar - on
 
-dictation
-
-* shortcut: off
+dictation: no changes
 
 ### mouse 
 
-no changes 
+* scroll direction: natural
+* tracking speed: 8 / 10
+* double click speed: 8 / 10
+* scrolling speed: 6 / 8
+* primary mouse button: left
 
 ### trackpad
 
 point & click 
 
-* tracking speed: 8
-* click: medium
-* slient clicking - on
-* look up & data detectors: tap with three fingers 
-* secondary click: click or tap with two fingers
-* tap to click: on 
+* Look up & data detectors: tap with three fingers 
+* Secondary click: click or tap with two fingers
+* **Tap to click: on** 
+* Click: medium
+* Tracking speed: 8
+* Force Click and haptic feedback: on 
 
 scroll & zoom
 
@@ -291,10 +341,10 @@ scroll & zoom
 
 more gestures
 
-* swipe between pages
-* swipe between full-screen apps: swipe left or right with four fingers - changed
-* notification center: swipe left from the right edge with two fingers - on - no changes
-* mission control: swipe up with four fingers - on
+* swipe between pages - two fingers - no change
+* swipe between full-screen apps: swipe left or right with **four** fingers - changed
+* notification center: swipe left from the right edge with two fingers - on - no change
+* mission control: swipe up with **four** fingers - changed
 * app expose: off
 * launchpad: off
 * show desktop: off
@@ -311,12 +361,12 @@ don't use
 
 don't use
 
-### app store
+### Software Update
 
 * automatically check for updates - yes
 * download newly available updates in the bg - yes
-* install app updates - no
-* install macos updates - yes
+* install macos updates - no
+* install app updates - yes
 * install system data files and security updates
 * purchases and in-app purchases: always require
 
@@ -345,22 +395,23 @@ no changes
 
 you should have only one 'current user'.
 
-login itmes:
+login items:
 
-* pomotodo
-* dropbox
 * contexts
-* backup and sync from google
-* alfred 3
-* flux
-* baidu yun disk
-* sizeup
-* octomouse
-* shortcat 
-* tickeys
 * iterm
-* ccmenu
-* bartender 2
+* octomouse
+* bartender 3
+* sizeup
+* Google Chrome
+* baidu yun disk
+* Ticktick
+* dropbox
+* Alfred 4
+* Pomotodo
+* backup and sync from google
+* shortcat
+* Karabiner-Elements 
+* flux
 
 ### parental controls 
 
@@ -381,7 +432,7 @@ disable ask siri
 * zoom: no changes required
 * display: 
   * reduce transparency - yes
-  * cursor size: 4
+  * cursor size: 5 / 6 
 * speech: no changes required
 * descriptions: no changes required
 * captions: larger text 
@@ -389,9 +440,13 @@ disable ask siri
 * dictation: no changes required
 * siri: no changes required
 * keyboard: no changes required
-* mouse & trackpad: 
-  * mouse options: scrolling speed: 3 
+* mouse & trackpad / Pointer Control
+  * mouse options: scrolling speed: 6 / 8
+  * **trackpad options: Enable dragging three fingers drag**
+  * trackpad options: Scrolling speed: 7 / 8
 * switch control: no changes required
+
+## Brew installations
 
 ## iTerm configuration
 
@@ -476,8 +531,6 @@ rules
   * terminal
   * vyprvpn
   * wechat
-  * zeplin
-  * genymotion
   * iterm2
 
 sidebar
