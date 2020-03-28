@@ -25,8 +25,9 @@
 * [x] pre-requisites
   * [x] XCode dev-tools - in order to get `git` to work
   * [x] git - in order to get `brew` to work - but we'll replace it with brew installed ones later
-  * [ ] nvm https://github.com/creationix/nvm
-  * [ ] Java https://stackoverflow.com/a/52524114
+  * [x] Java https://stackoverflow.com/a/52524114
+  * [x] nvm https://github.com/creationix/nvm
+    * [x] node dependencies
 * [x] install brew & cask
   * [x] install: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"` 
     * 踩坑：[新来的Git要关闭sslVerify](https://confluence.atlassian.com/fishkb/unable-to-clone-git-repository-due-to-self-signed-certificate-376838977.html)
@@ -96,41 +97,41 @@
     istat-menus                quicksilver                
     iterm2                     zoomus
     ```
-    待安装：
-    google-backup-and-sync, octomouse, postman, megasync
   * [x] app store：它们都在 App Store 中存储着，只需要用一个同样的账号就可以了
     ```bash
-    pages numbers smartkb keynote pocket amphetamine reeder3 hackrun deskcover marboolite xcode wechat
+    pages numbers smartkb keynote pocket amphetamine reeder3 hackrun deskcover xcode
     ```
-  * [x] iterm configurations - see below
-  * [x] zsh(should be shipped with Mac OSX automatically)
-    * https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
-    * [x] `brew install zsh zsh-completions`
+  * [x] zsh(should be shipped with Mac OSX automatically) `zsh --version` to check 
+  * [x] iterm configurations - see Ωff
   * [x] oh-my-zsh 
     * [x] `~/.zshrc`, `~/.oh-my-zsh` plugins and `ZSH_THEME_RANDOM_CANDIDATES`
     * [x] `~/.bashrc` & `~/.pathsrc`
-    * [x] ssh keys
-    * [x] zsh highlights,
-    * [x] make `sudo` doesn't require a password: https://apple.stackexchange.com/questions/239606/change-sudoers-to-stop-asking-for-password-when-running-a-systemsetup-comman
+    * [x] zsh plugins(mostly highlights and autocompletes)
+    * [x] make `sudo` doesn't require a password: [https://apple.stackexchange.com/questions/239606/change-sudoers-to-stop-asking-for-password-when-running-a-systemsetup-comman]
   * [x] vpn
     * [x] openvpn
       * https://mail.google.com/mail/u/1/#search/vpn/15f19e206e08e205
       * https://github.com/Homebrew/homebrew-php/issues/4527
     * [x] vpn 
-* [ ] Setup folders
+* [x] Setup folders: syncing / my / code
+* [x] Setup dotfiles configurations: 
+  * `~/.gitignore`, `~/.gitconfig`, `~/.gitignore_global`
+  * `~/.pathsrc`, `~/.bashrc`, `~/.zshrc`
+  * `~/.ssh`
 * [x] 系统三件套
   * [x] Toolbox + WebStorm
   * [x] Chrome - can now all managed by an account
+    * [x] bookmarks
     * [x] settings
     * [x] extensions
-      * [x] configurations
+      * [x] configurations - should also be done manual, shitty
     * [x] shortcuts
-    * [x] bookmarks
   * [x] Sublime - 还是采用软件自身备份方式导出方式
   * [x] Alfred - 垃圾备份，最重要的配置不见了 - 还好我机智，瞬间又好了
-  * [ ] Karabiner
+  * [x] Dropbox 
   * [x] Sogou input
-  * [ ] Dropbox 
+  * [x] Applications里所有软件的配置
+  * [ ] Karabiner
 * [x] 次重要：随开机启动
   * [x] Contexts: setup; license
   * [x] Flux 
@@ -149,10 +150,10 @@
   * [x] SmartKB
   * [x] Dash
 * [x] 三大备份系统设置
-  * [ ] Dropbox
-  * [ ] Google Drive
-  * [ ] BaiduYunDisk
-  * [ ] Megasync
+  * [x] Dropbox
+  * [x] Google Drive
+  * [x] BaiduYunDisk
+  * [x] Megasync
 * [x] other softwares
   * [x] Font Books - export collection
   * [x] what else...?
@@ -496,6 +497,10 @@ pointer
 
 * de-select 'option-click moves cursor'
 * de-select 'triple-click selects entire wrapped lines'
+
+advanced
+
+* Hotkey - Duration in seconds of the hotkey window animation: 0 
 
 ## contexts 
 
