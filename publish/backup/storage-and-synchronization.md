@@ -102,7 +102,10 @@
     pages numbers smartkb keynote pocket amphetamine reeder3 hackrun deskcover xcode
     ```
   * [x] zsh(should be shipped with Mac OSX automatically) `zsh --version` to check 
-  * [x] iterm configurations - see Ωff
+  * [x] iterm configurations - see below
+  * [x] zsh(should be shipped with Mac OSX automatically)
+    * https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
+    * [x] `brew install zsh zsh-completions`
   * [x] oh-my-zsh 
     * [x] `~/.zshrc`, `~/.oh-my-zsh` plugins and `ZSH_THEME_RANDOM_CANDIDATES`
     * [x] `~/.bashrc` & `~/.pathsrc`
