@@ -143,3 +143,7 @@ iterm2能够只能识别邮件地址、URL、文件名、文件夹等名称，�
 * `Control+A/E`，系统默认的快捷键，师承vim系风格，分别是跳到行头/行尾的快捷键，在编辑的时候对效率有一定帮助
 * `Command+Up/Down`，上一行/下一行
 * `Control+U`，直接删掉一行
+
+## References
+
+* [macOS终端常用命令大集合-mac系统](https://zhuanlan.zhihu.com/p/339479334)
